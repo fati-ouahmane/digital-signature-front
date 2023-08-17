@@ -1,0 +1,168 @@
+<div class="dashboard">
+  <mat-toolbar color="primary">
+
+    <div class="left-content-nav">
+      <mat-icon class="dashboard-icon" >dashboard</mat-icon>
+      <span class="dashboard-title">Dashboard</span>
+    </div>
+    <div class="right-content-nav">
+      <ul class="navbar-nav navbar-right">
+        <li class="menuItem dropdown">
+          <a class="dropdown-toggle" href="#" id="dropdown-account1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="{{getFlag(selectLang)}}"></span>&nbsp;
+            <span>{{selectLang  | uppercase}}</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" *ngFor="let lg of TransLang" (click)="setTransLanguage(lg)">
+              <span class="{{getFlag(lg)}}"></span>&nbsp;
+              <span>{{lg | uppercase}}</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+
+      <div>
+        <mat-icon class="notification-icon">notifications</mat-icon>
+
+      </div>
+      <ul class="navbar-nav navbar-right">
+        <li class="menuItem dropdown">
+          <a class="dropdown-toggle" href="#" id="dropdown-account" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="avatar">{{firstName|getFirstCharacter}}{{lastName|getFirstCharacter}}</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-item" >
+              <span class="name" >{{firstName | titlecase}} {{lastName | titlecase}}</span>
+              <!-- <div class="action"> Edit Profile</div> -->
+            </div>
+            <a class="dropdown-item" (click)="navigateTo('xayone/administration/admin-ativities')">
+              <span><img class="icon" src="assets/ic_access_management.svg" alt="">Authentication</span>
+            </a>
+            <a class="dropdown-item" (click)="logout()">
+              <span><img class="icon" src="assets/ic_logout.svg" alt="">Log out</span>
+            </a>
+
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+
+
+  </mat-toolbar>
+  <div class="body">
+
+    <div class="card-container">
+      <mat-card class="statistics-card  ">
+        <mat-icon class="required-icon icon">alarm</mat-icon>
+        <div class="required-content content-design">
+          <span class="required-number number">3</span>
+          <span class="required-title title">Action Required</span>
+
+        </div>
+      </mat-card>
+
+      <mat-card class="statistics-card ">
+        <mat-icon class="waitin-icon icon">access_time</mat-icon>
+        <div class="waiting-content content-design">
+          <span class="waiting-number number">2</span>
+          <span class="waiting-titl title">Waiting for Others</span>
+
+        </div>
+      </mat-card>
+
+      <mat-card class="statistics-card ">
+
+        <mat-icon class="expired-icon icon">event</mat-icon>
+
+        <div class="expired-content content-design">
+          <span class="expired-number number">5</span>
+          <span class="expired-title title">Expired Soon</span>
+
+        </div>
+      </mat-card>
+
+      <mat-card class="statistics-card ">
+        <mat-icon class="complete-icon icon">check_circle</mat-icon>
+        <div class="complete-content content-design">
+          <span class="complete-number number">3</span>
+          <span class="complete-title title">Completed</span>
+        </div>
+      </mat-card>
+
+    </div>
+    <div class="grid-container">
+      <mat-card class="drag-container">
+        <div class="dropzone">
+          <div class="text-wrapper">
+            <img src="assets/img/upload_files.svg" alt="upload">
+
+            <div class="centered">
+              Drag a file here or  <a   class="browse-button">browse  </a>
+              for a file to upload
+            </div>
+          </div>
+        </div>
+
+      </mat-card>
+      <mat-card class="profile-completion-card">
+        <mat-card-content>
+          <div class="progress-circle">
+            <mat-progress-spinner
+              class="progress"
+              [value]="completionPercentage"
+              [mode]="'determinate'"
+              [strokeWidth]="8"
+              [diameter]="160"
+            ></mat-progress-spinner>
+            <span class="percentage">{{ completionPercentage }}%</span>
+          </div>
+          <div class="completion-label">
+            <span class="completion-title">  Profile Completion </span>
+            <span class="completion-slogan"> Ensure all your documents are complete for a seamless experience </span>
+          </div>
+
+        </mat-card-content>
+      </mat-card>
+
+      <div class="recent-emails">
+
+        <mat-card class="recent-card">
+          <span class="recent-title"> Recent emails </span>
+
+          <div class="email-content">
+
+            <div class="sender-img">
+              <mat-icon class="sender-icon" >account_circle</mat-icon>
+            </div>
+            <div class="sender-name">Ouahmane Fatima Ezzahra</div>
+            <div class="email-subject">Contrat de travail</div>
+            <div class="email-time">12:13, 3 days ago</div>
+
+          </div>
+          <div class="email-content margin">
+            <div class="sender-img">
+              <mat-icon class="sender-icon" >account_circle</mat-icon>
+            </div>
+            <div class="sender-name">youssef ziza</div>
+            <div class="email-subject">Un document à signer</div>
+            <div class="email-time">10:07, yesterday</div>
+          </div>
+
+        </mat-card>
+      </div>
+
+      <mat-card class="signature-card">
+        <span class="signature-title">Signature</span>
+        <div class="signature-img">
+          <img src="/assets/img/img_2.png" alt="Signature Image">
+        </div>
+      </mat-card>
+
+
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+
+</div>

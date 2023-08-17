@@ -1,0 +1,129 @@
+.viewer {
+  position: relative;
+  margin: auto;
+  z-index: 0;
+  padding-bottom: 200px;
+  height: 100vh;
+
+
+  overflow: auto;
+}
+.language-info{
+  color: #6e6c6c;
+}
+.pad{
+  padding-right: 170px;
+ margin-bottom: -170px;
+}
+
+.navbar {
+  background-color: #dcd9ee;
+  color: #171044;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 40px;
+  height:40px;
+  margin-right: 10px;
+
+}
+
+.Compte-nav {
+
+  font-weight: 400;
+  font-family: "Recoleta", serif;
+  font-size: 42px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.details{
+  font-family: "Recoleta", serif;
+  font-size: 20px;
+
+}
+.col-12{
+  margin-bottom: 20px;
+}
+
+.profil-icon{
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 50px;
+  height : 100px;
+  width: 100px;
+  margin-top: 9px;
+  padding-top:30px;
+  font-weight: 600;
+  color: var(--light-color);
+  text-align: center;
+  border: 1px solid #fff;
+  background: var(--caption-color);
+}
+.profile-info{
+  padding: 20px;
+  margin-left: 100px;
+  margin-top: -100px;
+  width:60%;
+  margin-bottom: -40px;
+}
+.col-12 span{
+  margin-left: 10px;
+}
+.margin{
+  margin-top: 15px;
+}
+.User-name{
+
+  margin: 10px;
+  margin-bottom: 20px;
+  font-family: "Recoleta", serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.col-12{
+   margin-top: 15px;
+}
+
+.change-account {
+  font-size: 12px;
+  color: #555;
+}
+.password-info{
+  padding-left: 15px;
+}
+.bouton{
+  background-color: #11c5c0;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 15px;
+  font-family: "Recoleta", serif;
+  margin-left: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+.bouton-cancel{
+  background-color: #f6203a;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  font-family: "Recoleta", serif;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+

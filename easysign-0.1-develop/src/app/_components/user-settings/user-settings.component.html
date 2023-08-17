@@ -1,0 +1,59 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+
+    <mat-nav-list>
+      <div class="menuItem ">
+        <span class="icon">{{firstName|getFirstCharacter}}{{lastName|getFirstCharacter}}</span>
+        <span class="nom-haut">{{firstName}} {{lastName}}</span>
+
+      </div>
+      <div class="upgrade-plan">
+        <button class="upgrade-btn">
+          <i class="material-icons">how_to_reg</i>
+          Upgrade Your Plan
+        </button>
+      </div>
+
+      <div class="menuItem bord">
+        <a mat-list-item [routerLink]="['/xayone/user-settings/account']" routerLinkActive="active" >
+          <div class="icon-container">
+            <img src="assets/account.svg" alt="accounte Image" >
+            <span class="icon-name"> Account</span>
+          </div>
+        </a>
+      </div>
+      <div class="menuItem bord">
+        <a mat-list-item [routerLink]="['/xayone/user-settings/profile-settings']" routerLinkActive="active" [accessControl]="['page:settings:read']">
+          <div class="icon-container">
+            <img src="assets/settings2.svg" alt="signature Image" >
+            <span class="icon-name">User Settings</span>
+          </div>
+        </a>
+      </div>
+      <div class="menuItem bord ">
+        <a mat-list-item [routerLink]="['/xayone/user-settings/signature-settings']" routerLinkActive="active" [accessControl]="['page:signature:read']">
+          <div class="icon-container" >
+            <img src="assets/electronic_signature.svg" alt="signature Image" >
+            <span class="icon-name">Signature</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="menuItem menuItem-down bord">
+        <a mat-list-item (click)="logout()" routerLinkActive="active" [accessControl]="['page:logout:read']" >
+          <div class="icon-container" >
+            <img src="assets/dec.svg" alt="logout Image" >
+            <span class="icon-name">Logout</span>
+          </div>
+        </a>
+      </div>
+
+
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content >
+    <!-- Contenu de la page -->
+
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

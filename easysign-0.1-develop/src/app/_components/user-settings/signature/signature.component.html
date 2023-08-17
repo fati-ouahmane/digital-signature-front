@@ -1,0 +1,46 @@
+<nav class="navbar">
+  <div class="navbar-content">
+    <img src="assets/electronic_signature.svg" alt="settings Image" class="image">
+    <span class="Signature-nav">Signature</span>
+  </div>
+
+  <button class="add-signature-btn">Add Signature</button>
+
+</nav>
+<form class="form_standard" method="post" id="signatures">
+  <div class="board">
+    <div class="page">
+      <div class="table_tabs">
+        <span class="meta" style="display: none;"></span>
+        <a href="/signatures" data-ajax="true" data-ajax-get-file="eversign.signatures" data-ajax-get-page="signatures" data-ajax-get-type="signatures" class="tab current">Signatures</a>
+      </div>
+    </div>
+  </div>
+</form>
+<table class="signature-table">
+
+  <tbody>
+  <tr>
+    <td class="signature-image" style="background-color: white;">
+      <img class="image-signature" src="/assets/img/img_2.png">
+    </td>
+    <td class="actions" >
+      <button class="make-default-btn">Make Default</button>
+      <div class="dropdown-icon">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="signature-image" style="background-color: white;">
+      <img class="image-signature" src="/assets/img/img_3.png">
+    </td>
+    <td class="actions">
+      <button class="make-default-btn">Make Default</button>
+      <div class="dropdown-icon">
+      </div>
+    </td>
+  </tr>
+  </tbody>
+
+</table>
+

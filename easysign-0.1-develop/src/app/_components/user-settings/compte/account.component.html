@@ -1,0 +1,95 @@
+<nav class="navbar">
+  <div class="navbar-content">
+    <img src="assets/account.svg" alt="account Image" class="image">
+    <span class="Compte-nav">Account</span>
+  </div>
+</nav>
+
+<div class="container-fluid viewer">
+
+  <div class="alert alert-info" role="alert">
+    <span class="details">Profile</span>
+  </div>
+  <div class="viewer pad">
+    <div class="col-3">
+      <div class="profile">
+        <span class="profil-icon">{{firstName | getFirstCharacter}}{{lastName | getFirstCharacter}}</span>
+      </div>
+    </div>
+    <div class="col-9">
+      <div class="profile-info">
+        <span class="User-name">{{firstName}} {{lastName}}</span>
+        <p class="language-info">You are free to modify your account settings using this user interface. Update your personal information, change your email address or password, manage your privacy settings, and more. Your account, your control!</p>
+      </div>
+    </div>
+    <div class="personal-info row">
+      <div class="col-6">
+        <div class="col-12 ">
+          <span>name</span>
+          <input name="input1" type="text" class="form-control margin " [(ngModel)]="firstName + ' ' + lastName">
+        </div>
+
+        <div class="col-12">
+          <span>Given Name</span>
+          <input name="input2" type="text" class="form-control margin" [(ngModel)]="firstName">
+        </div>
+        <div class="col-12">
+          <span>Phone Number</span>
+          <input name="input5" type="text" class="form-control margin" >
+        </div>
+
+      </div>
+
+      <div class="col-6">
+        <div class="col-12">
+          <span>Family Name</span>
+          <input name="input3" type="text" class="form-control margin" [(ngModel)]="lastName">
+        </div>
+
+        <div class="col-12">
+          <span>Middle Name</span>
+          <input name="input4" type="text" class="form-control margin">
+        </div>
+        <div class="col-12">
+          <span>Email Address</span>
+          <input name="input6" type="email" class="form-control margin" >
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="alert alert-info" role="alert">
+    <span class="details">Mot de passe</span>
+  </div>
+  <div class="password-info">
+     <p>Here you can change your password to keep your account secure. </p>
+  </div>
+
+   <div class="col-6">
+  <div class="col-12">
+    <span>Current password</span>
+    <input name="input3" type="text" class="form-control margin" [(ngModel)]="lastName">
+  </div>
+
+  <div class="col-12">
+    <span>New Password</span>
+    <input name="input4" type="text" class="form-control margin">
+  </div>
+  <div class="col-12">
+    <span>New Password (confirm)</span>
+    <input name="input6" type="email" class="form-control margin" >
+  </div>
+</div>
+  <div class="alert alert-info" role="alert">
+    <span class="details">Cancel  your Account </span>
+  </div>
+
+  <div class="password-info">
+    <p>Clicking "Cancel Account" will initiate the process of canceling your entire account, and this action cannot be undone. </p>
+  </div>
+
+  <div class="change-password-btn">
+    <button class=" bouton-cancel">Cancel Account</button>
+  </div>
+
+</div>

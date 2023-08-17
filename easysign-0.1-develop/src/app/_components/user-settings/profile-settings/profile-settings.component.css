@@ -1,0 +1,122 @@
+
+
+.navbar {
+  background-color: #dcd9ee;
+  color: #171044;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 40px;
+  height:40px;
+  margin-right: 10px;
+
+}
+
+.profile-settings-nav {
+  margin-left: 20px;
+  font-weight: 400;
+  font-family: "Recoleta", serif;
+  font-size: 42px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.save-changes-btn {
+  background-color: #171044;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.board {
+  position: relative;
+  background: #fff;
+  border: 1px solid #d7d7d9;
+  box-sizing: content-box;
+  border-radius: 3px;
+  margin-bottom: -12px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.01);
+}
+
+.page {
+
+  padding-bottom: 15px;
+  background: transparent;
+}
+
+#desk.settings .board .page section {
+  padding: 20px 20px;
+
+  border-bottom: 1px solid #e8e8e9;
+  border-bottom-color: rgb(232, 232, 233);
+  border: 1px solid #d7d7d9; /* Add border here */
+
+}
+
+#desk.settings .board .page section .contain_inputs {
+  max-width: 700px;
+
+
+}
+
+
+label {
+  color: #08123d;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  max-width: 100%;
+}
+
+.board header.box_header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #e8e8e9;
+  background: #e8e8e9;
+  border-radius: 15px;
+  font-family: "facto", "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+.form_row{
+  padding-left: 15px;
+  padding-right: 50%;
+}
+.form_heading label {
+  font-size: 20px;
+
+  white-space: nowrap;
+  font-family: "Recoleta", serif;
+  margin-left: -10px;
+
+}
+select{
+  font-size: 15px;
+  background-color: #d4d5dc;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.board{
+  margin-top: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+

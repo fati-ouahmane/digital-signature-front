@@ -1,0 +1,2968 @@
+{
+ 
+  "logins":{
+    "page": {
+      "title": "Bienvenue",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "confirm.password": "Confirmation mot de passe",
+      "change.password":"Changer le mot de passe",
+      
+      "passcode":"Code d'accès",
+      "signon": "Continuer",
+      "submit":"Soumettre",
+      "push": "Push",
+      "sms": "SMS OTP",
+      
+      "sms.message" : "Demande authentification",
+      "confirm.your.identity":"Confirmer votre identité",
+      "submit.authentication":"valider",
+      "logins.page.insert.oath":"inserer votre Oath",
+      "insert.oath":"Entre votre Passcode",
+      "forgot":{
+        "back":"Retour à XAYOne App",
+        "password": "Mot de passe oublié",
+        "password.title":"Mot de passe oublié?",
+        "password.message":"Saisissez votre adresse e-mail pour recevoir par e-mail un lien de réinitialisation du mot de passe."
+      }
+    }
+  },
+  "menu": {
+    "dashboard.title": "Tableau de bord",
+    "orchestration.title": "Orchestration",
+    "settings.title": "Paramétres",
+    "marketplace.title": "Marketplace",
+    "signature.title": "Signature",
+    "signing.title":"Signing",
+    "monitoring.title":"Surveillance",
+    "modeles.title":"Template",
+    "administration": {
+      "title": "Administrateurs",
+      "entities.title":"Entités",
+      "applications.title":"Applications",
+      "administrators.title":"Administrateurs",
+      "groups.title":"Groupes",
+      "roles.title":"Rôles",
+      "sessions.title":"Sessions",
+      "activities.title":"Activités"
+    },
+
+    "identities": {
+      "title": "Identités",
+      "identities.title": "Identités",
+      "2FA.devices.title": "Appareils 2FA",
+      "populations.title": "Populations",
+      "roles.title": "Rôles",
+      "endpoint.title": "Terminaux",
+      "import.title": "Importer des identités"
+
+    },
+
+    "access": {
+      "title": "Accès",
+      "mfa.title": "Gestion AMF",
+      "admin-auth.title": "Sécurité administrative",
+      "security.title": "Protection contre les attaques",
+      "risk.title": "Politiques de risque",
+      "networks.title": "Politiques des réseaux",
+      "tokens.title": "Jetons",
+      "providers.title": "Fournisseurs OATH",
+      "contextual.title": "Authentification contextuelle"
+    },
+
+    "governance": {
+      "title": "Governance",
+      "identity.title": "Politiques d'identité",
+      "application.title": "Politiques d'application",
+      "datamodel.title": "Modèles de données",
+      "ial.title": "Niveau d'assurance d'identité",
+      "aal.title": "Niveau d'assurance d'authentification",
+      "fal.title": "Niveau d'assurance de la fédération"
+    },
+
+    "reporting": {
+      "title": "Rapports",
+      "workflows.title": "Workflows",
+      "identity.title": "Cycle de vie de l'identité",
+      "access.title": "Cycle de vie de l'accés",
+      "connectors.title": "Connecteurs",
+      "external.title": "Systèmes externes",
+      "access-methods.title": "Cycle de vie de l'authentification",
+      "signature.title":"Cycle de vie de la signature"
+    }
+
+
+
+  },
+
+  "dashbord": {
+
+    "signature":{
+      "title": "Signature",
+      "page.title": "Tableau de bord des signatures",
+      "page.info": "Visualisation des statistiques de signature électronique par usage",
+      "chart.signatureCount.generateProofFile": "Dossier de preuve",
+      "chart.signatureCount.createCertificateHardToken": "Certificat généré",
+      "chart.signatureCount.resourcesSignedByOtpk": "Signature électronique à la volée",
+      "chart.signatureCount.resourcesSignedBySeal": "Signature électronique cachet-serveur",
+      "chart.signatureCount.createCertificate": "Certificat généré",
+      "section.certificat.graph1.info": "Affichage des statistiques du cycle de vie des signatures",
+      "section.certificat.graph2.info": "Vue des top application",
+      "section.certificat.graph3.info": "Vue de la signature électronique à la volée par application",
+      "section.certificat.graph4.info": "Vue de la signature électronique cachet-serveur par application",
+      "section.certificat.graph5.info": "Visualisation du dossier de preuve par application",
+      "section.kpi.proof.file":"Dossier de preuve",
+      "section.kpi.generated.certificat":"Certificat",
+      "section.kpi.fly.signature":"Signature électronique cachet-serveur",
+      "section.kpi.stamp.signature":"Signature électronique à la volée",
+      "page.file.stats.title":"Statistiques des processus",
+      "page.file.stats.info":"Vue de la signature du processus et des requête",
+      "page.certificat.stats.info":"Vue des statistiques des certificats générés",
+      "page.api.stats.info":"Affichage des statistiques des demande par processus",
+
+      "otpk.title": "Compteur de signature et moyenne",
+      "otpk.info": "Vues du compteur de statistiques représentant le nombre de transactions et la moyenne temporelle pour la période sélectionnée",
+      "otpk.counter.info": "View of the number of transactions for the selected period",
+      "otpk.average.info": "View of the time average for the selected period",
+      "otpk.applications.info": "View of applications production statistics for the selected period",
+      "otpk.status.info": "Afficher le nombre de transactions par statut pour la période sélectionnée",
+      "otpk.methods.title": "Activities Statistics",
+      "otpk.methods.info": "View transactions statitics by methods for the selected period",
+      "section.activity.title":"Activités de signatures",
+      "section.activity.info":"Vue de l'application la plus utilisée pour la signature"
+    },
+    "governance": {
+      "title": "Gouvernance",
+      "page.title": "Tableau de bord Gouvernance",
+      "page.info": "Affichage des statistiques des requêtes API",
+
+      "policies.status.count": "Politiques d'identité",
+      "profiles.status.count": "Profils des politiques",
+      "ial.status.count": "Niveau d'assurance d'identité",
+      "aal.status.count": "Niveau d'assurance d'authentification",
+      "populations.status.count": "Populations",
+      "access.certification.status.count": "certification",
+      "access.certification.approvals.status.count": "approvals",
+
+      "page.api.stats.info": "Affichage des statistiques des requêtes API",
+      "page.top.applications.info": "Principales applications - statistiques",
+      
+
+      "page.api.title": "Gouvernance des services",
+      "page.api.info": "Visualiser sur les statistiques des politiques de services appliquées",
+      "page.api.top.info": "Vue des top requête API ",
+      "page.api.tokens.info": "Expiration des jetons",
+
+      "page.access.title": "Gouvernance des accès",
+      "page.access.info": "Visualiser les statistiques des politiques appliquées ainsi que leurs applications",
+      "page.access.policy.info": "Vue des statistiques des politiques",
+      "page.access.profile.info": "Affichage des statistiques des profils de politique",
+      "page.access.campaign.info": "Visualisation des statistiques de certification",
+
+      "page.applications.stats.title": "Gouvernance des applications",
+      "page.applications.stats.info": "Visualisation des statistiques des applications et de leurs politiques d'accès"
+
+
+    },
+    "orchestration": {
+      "title": "Orchestration",
+      "page.title": "Tableau de bord d'orchestration",
+      "page.info": "Lorem ipsum dolor sit amet, alii aliquip vituperatoribus at pro, ei simul numquam conceptam pri, sea aliquando persequeris ad .."
+    },
+    "admin": {
+
+      "title": "Administration",
+      "page.title": "Tableau de bord administration",
+      "page.info": "Vue des administrateurs et des activités d'administration sur la plate-forme",
+      "entities.count": "Entités",
+      "entities.waiting.count": "Entités en attente",
+      "administrators.count": "Administrateurs",
+      "administrators.waiting.count": "Admin en attente",
+      "chart.activities.loginAdmin": "Connexion",
+      "chart.activities.!loginAdmin": "Autres",
+      "section.top.admin.graph1.info": "Statistiques des activités des administrateurs",
+      "section.top.admin.graph2.info": "Principales activités des administrateurs",
+      "section.login.title": "Authentification des administrateurs",
+      
+      "section.login.info": "Visualisation des activités d'administration sur la plateforme",
+      "section.login.graph1.info": "Statistiques d'authentification de connexion ",
+      "section.login.graph2.info": "Top Statistiques administrateurs ",
+
+      "status.count":"Adminitrateurs",
+      "applications.count": "Applications",
+      "groups.count":"Groupes",
+
+      "successfull.count": "Connexion réussie",
+      "active.session.count": "sessions actives",
+      "delegated.count": "Administration déléguée",
+      "section.authentication.graph2.info":"Statistiques des activités globales des administrateurs",
+      "section.authentication.graph1.info":"Statistiques d'authentification globale des administrateurs"
+
+    }
+
+  },
+  "identities":{
+
+    "identities":{
+      "search": "Rechercher identités",
+      "no.data.found" : ":( Nous n'avons trouvé aucune identité ..",
+
+      "identity":{
+
+        "page": {
+          "overview": "Vue d'ensemble",
+          "overview.title": "Vue d'ensemble de la liste",
+
+          "general": "Informations des données",
+          "general.title": "Liste d'informations sur les données ",
+
+          "auth": "Authentification",
+          "auth.title": "Liste d'authentification",
+          "auth.info": "Liste d'authentification Info ",
+
+          "entities": "Entités",
+          "entities.title": "Liste des entités",
+          "entities.info": "Liste des entités liées à l'utilisateur",
+          "entities.no.data.found": ":( Nous n'avons trouvé aucune entité rattachée ..",
+
+          "applications": "Applications",
+          "applications.title": "Liste des applications",
+          "applications.info": "Vue de l'application liée à l'utilisateur",
+          "applications.no.data.found": ":( Nous n'avons trouvé aucune application rattachée..",
+          "applications.add.title":"Application affecté",
+          "applications.label":"Nom",
+            
+          "name":"Nom Complet",
+          "given_name":"Prénom",
+          "phone_number":"Numéro de téléphone",
+          "email":"e-mail",
+          "family_name":"Nom de famille",
+          "middle_name":"Deuxième nom",
+          "locale":"lieu",
+          "street_address":"Rue",
+          "picture":"Image",
+          "birthdate":"Date de naissance",
+          "country_code":"Code pays",
+          "locality":"Localité",
+          "title":"Titre",
+          "region":"Région",
+          "username":"Nom d'utilisateur",
+          "role":"Rôle",
+          "admin-role":"Roles",
+          "admin-role.title":"Rôles administratifs",
+          "admin-role.info":"Rôles administratifs attribués ou à attribuer à l'utilisateur",
+          
+          "roles": "Roles",
+          "roles.title": "Liste des Roles ",
+          "roles.info": "Liste des Roles Info ",
+          "roles.no.data.found": ":( Nous n'avons trouvé aucun rôle affecté ..",
+
+          "sessions": "Sessions",
+          "sessions.title": "Liste des Sessions",
+          "sessions.info": "Visualisation des états des sessions utilisateur",
+          "sessions.no.data.found": ":( Nous n'avons trouvé aucune session active ",
+
+          "admin-groups": "Groupes d'administration",
+          "admin-groups.title": "Groupes d'administration",
+          "admin-groups.info": "Groupes d'administration Info ",
+          "admin-groups.add": "Ajouter un groupe",
+          "admin-groups.no.data.found": ":( Nous n'avons trouvé aucun groupe d'administrateurs",
+
+          "relationship": "Relation",
+          "relationship.title": "Relation",
+          "relationship.info": "Relation Info ..",
+          "relationship.no.data.found": ":( Nous n'avons trouvé aucune relation active ",
+          "disable.title": "Désactiver la confirmation d'identité",
+          "disable.info": "Voulez-vous vraiment désactiver cette identité ?",
+          "enable.title": "Activer la confirmation d'identité",
+          "enable.info": "Voulez-vous vraiment activer cette identité ?",
+          "suspend.title": "Suspendre la confirmation d'identité",
+          "suspend.info": "Voulez-vous vraiment suspendre cette identité ?",
+          "unlock.title": "Déverrouiller la confirmation d'identité",
+          "unlock.info": "Voulez-vous vraiment déverrouiller cette identité ?",
+          "delete.title": "Supprimer la confirmation d'identité",
+          "delete.info": "Voulez-vous vraiment supprimer cette identité ?",
+          "accessLocked":"Accès verrouillé",
+          "timeLocked":"Temps verrouillé",
+          "suspended":"Suspendu",
+          "locked":"verrouillé",
+          "enabled":"Activé",
+          "onHold":"En attente",
+          "endpoint":{
+            "id": "Identifiant",
+            "os": "SE",
+            "method": "Méthode",
+            "browser": "Navigateur",
+            "device": "Dispositif",
+            "type": "Type",
+            "ip": "Adresse IP",
+            "lastUsed": "Dernière utilisation",
+            "action": "Action",
+
+
+            "label": "Terminaux",
+            "title": "Terminaux",
+            "search": "Chercher",
+            "info": "Visualisation des différents endpoints liés à l'utilisateur",
+            "no.data.found": ":( Nous n'avons trouvé aucun terminal attaché .."
+          },
+
+          "devices":{
+            "label": "Dispositifs MFA ",
+            "title": "Dispositifs MFA",
+            "info": "Affichage des appareils liés à l'utilisateur",
+            "no.data.found": ":( Nous n'avons trouvé aucun dispositif inscrit ",
+
+            "phones": "Téléphones",
+            "phones.info": "Téléphones info ",
+            "tokens": "Tokens physiques",
+            "tokens.info": "Tokens physiques info ",
+            "fido": "Jeton fido",
+            "fido.info": "Jetons Fido info "
+
+
+          }
+
+
+
+        }
+      },
+
+      "page": {
+        "title": "Gestion des identités",
+        "identity.size": "Identités déclarées",
+        "locked.size": "Bloqué",
+        "onHold.size": "En attente",
+        "timeLocked.size": "Vérouillage temporaire",
+        "suspended.size": "Suspendu",
+        "create.title": "Ajouter une nouvelle identité",
+        "delete.title": "Supprimer la confirmation d'identité",
+        "next":"Suivant",
+        "delete.info": "Êtes-vous sûr de vouloir supprimer l'identité {{identity Label}} ?" 
+      },
+
+      "btn": {
+
+        "identity": {
+          "add": "Ajouter une nouvelle identité",
+          "update": "Mettre à jour l'identité",
+          "delete": "Supprimer l'identité",
+          "save": "Enregistrer",
+          "enable": "Activer l'identité",
+          "unlock": "Déverrouiller l'identité",
+          "disable": "Désactiver l'identité",
+          "suspend": "Suspendre l'identité",
+          "revoke": "Révoquer l'identité"
+        },
+        "application": {
+          "create": "Ajouter une nouvelle application",
+          "update": "Mettre à jour l'application",
+          "disable": "Désactiver l'application",
+          "enable": "Activer l'application",
+          "delete": "Supprimer",
+          "save": "Enregistrer l'application",
+          "cancel": "Annuler"
+        }
+
+
+        }
+    },
+
+    "populations":{
+      "search": "Rechercher des populations",
+      "no.data.found" : ":( Nous n'avons trouvé aucune population ..",
+
+      "page":{
+        "title": "Gestion des Populations",
+
+        "create.title": "Ajouter une nouvelle population",
+        "delete.title": "Supprimer la confirmation de l'application",
+        "delete.info": "Êtes-vous sûr de vouloir supprimer Population {{populationLabel}} ?"
+      },
+      "btn":{
+        "population": {
+          "add": "Ajouter une nouvelle population",
+          "update": "Mettre à jour la population",
+          "delete": "Supprimer la population",
+          "unapply": "Annuler l'application du filtre",
+          "apply": "Appliquer le filtre",
+          "save": "Enregistrer",
+          "filter.add": "Ajouter un nouveau filtre",
+          "filter.modeling": "Mettre à jour le filtre"
+        }
+      },
+      "population":{
+          "page":{
+            "filter.no.data.found": ":( Nous n'avons trouvé aucun filtre ..",
+            "show.info": "Afficher les informations sur la population",
+            "update.info": "Mettre à jour la population Info",
+            "overview.title": "Informations générales",
+            "filter.title": "Filtre associé",
+            "filter.info": "filtre Info..",
+            "filter.visu": "Aperçu",
+            "filter.visu.identity": "Référence d'identité",
+            "filter.visu.info": "Aperçu info",
+            "filter.delete.title":"Supprimer la confirmation du filtre",
+            "filter.delete.info":"Voulez-vous vraiment supprimer ce filtre ?",
+            "filter.preview.title":"Filtre d'aperçu",
+            "filter.preview.info":"Filtre d'aperçu Info .."
+        }
+      }
+    },
+
+    "roles": {
+      "search": "Rechercher Rôles",
+      "no.data.found" : ":( Nous n'avons trouvé aucun rôle ..",
+
+      "page":{
+        "title": "Gestion des rôles",
+
+        "create.title": "Ajouter un nouveau rôle",
+        "delete.title": "Supprimer la confirmation de rôle",
+        "delete.info": "Voulez-vous vraiment supprimer le rôle {{roleLabel}} ?",
+        "authz.add.title": "Affecter la confirmation d'autorisation",
+        "authz.add.info": "Voulez-vous vraiment supprimer le rôle {{authzLabel}} ?",
+        "authz.desaffect.title": "Désaffecter la confirmation d'autorisation",
+        "authz.desaffect.info": "Voulez-vous vraiment désactiver l'autorisation {{authz Label}} ?"
+
+      },
+      "btn":{
+        "role": {
+          "add": "Ajouter un nouveau rôle",
+          "update": "Mettre à jour le rôle",
+          "delete": "Supprimer le rôle",
+          "save": "Enregistrer",
+          "authz.add": "Ajouter une nouvelle autorisation"
+
+        }
+      },
+      "role":{
+        "authz.name":"Nom",
+        "authz.appId":"ID d'application",
+        "page":{
+          "overview.title": "Informations générales",
+          "authz.title": "Autorisations",
+          "authz.no.data.found": ":( Nous n'avons pas trouvé d'autorisation .."
+        },
+
+        "btn":{
+            "add": "Ajouter un nouveau rôle",
+            "update": "Mettre à jour le rôle",
+            "delete": "Supprimer le rôle",
+            "save": "Enregistrer",
+            "authz.add": "Ajouter une nouvelle autorisation"
+          }
+      }
+    }
+  },
+
+  "marketplace":{
+    "page.title": "Marketplace",
+    "page.info": "Market Lorem ipsum dolor sit amet, alii aliquip vituperatoribus at pro, ei simul numquam conceptam pri, sea aliquando persequeris ad  "
+  },
+  "signatures":{
+    "signature":{
+      "page":{
+        "title":"Signatures",
+        "details.title":"Détails des signatures",
+        "details.info":"Visualisez les informations d'aperçu de la signature, ses tracés chronologiques et ses profils ",
+        "profile.general.info":"Un profil d'archivage permet de définir précisément la manière dont les archives destinées à être transférées vers un système d'archivage électronique doivent être structurées et décrites. Il s'agit d'une déclinaison du modèle de description propre au Data Exchange Standard pour l'archivage",
+        "ganeralInfo":"Informations générales",
+        "documents.title":"Documents signés",
+        "signators.title":"Signataires",
+        "generalInfo":"Présentation des signatures",
+        "generalinfos.title":"Informations sur la vue d'ensemble du workflow de signature",
+        "generalinfos.infos":"Informations générales sur les activités et les conditions de signature",
+        "documents.infos":"Liste des documents signés",
+        "signators.infos":"Liste des signataires",
+        "profile":"Profil",
+        "timeline":"Chronologie",
+        "version-list": "Liste des versions",
+        "creationDate":"Date de création",
+        "lastUpdate":"Date de modification",
+        "name":"Nom de Dossier",
+        "order":"Ordre",
+        "signators":"Signataires",
+        "status":"Stauts",
+        "mailSubject":"Sujet",
+        "resourceSize": "Documents",
+        "service":"Service associé",
+        "endDate":"Date de fin",
+        "startDate":"Date de démarrage",
+        "retentionDuration":"Durée de conservation",
+        "retentionSearchDuration":"Durée de la recherche de rétention",
+        "expirationDateMills":"Date d'expiration",
+        "login":"Connexion",
+        "transactionId":"ID de transaction",
+        "usage":"Usage",
+        "policyLevel":"Niveau politique",
+        "policyKey":"Clé politique",
+        "processId":"ID Process ",
+        "usageApp":"ID Application ",
+        "id":"ID",
+        "usageIdv1":"ID Usage ",
+        "formKey":"Clé formulaire",
+        "usageEntity":"Entité",
+        "taskName":"Nom de la tâche",
+        "requestId":"ID de la demande",
+        "description":"Description",
+        "pdfNames":"Noms PDF",
+        "usageProcId":"ID Process ",
+        "usageProcName":"usageProcName",
+        "taskDescription":"Description de la tâche",
+        "assigneeListSplit":"Assigner la liste split",
+        "language":"Langue",
+        "signataires":"Signataires",
+        "processCode":"Processus",
+        "entity.title":"Environment",
+        "entity.infos":"Informations générales sur l'environment",
+        "proof":"Preuve",
+        "applicationId":"ID d'application",
+        "entityId":"ID d'entité",
+        "proof.title":"Éléments de preuve",
+        "proof.infos":"Liste des Éléments de preuve",
+        "sender.title":"Expéditeur",
+        "documents":"Documents",
+        "authentication.type":"Type d'identification",
+        "documents.info":"Chaque nouvelle demande lancera un processus de signature d'un ou plusieurs documents PDF par un ou plusieurs signataires choisis parmi la liste des personnes internes ou externes.",
+        "upload.content":"Charger vos documents"
+      },
+      "menu":{
+        "proof-doc":"Signatures",
+        "profils":"Profiles",
+        "archive":"Archives"
+      },
+      "btn":{
+        "create.title":"Créer une signature",
+        "cancel.title":"Annuler"
+      },
+      "search":"Rechercher une signature",
+      "success": "Succès",
+      "in-progress": "En cours",
+      "expired": "Expiré"
+    },
+    
+    "no.data.found":":( Nous n'avons trouvé aucune signature",
+    "status":{
+      "all":"Tout",
+      "success":"Succès",
+      "rejected":"Rejeté",
+      "expired":"Expiré",
+      "in-progress":"En cours",
+      "archive": "Archive",
+      "proof-doc": "Fichier de preuve"
+    }
+    
+
+  },
+  "archives": {
+    "archive": {
+      "page": {
+        "title": "Archives",
+        "details.title":"Archives Overview",
+        "info":"Détails du document archivé",
+        "profile.info":"Afficher les informations d'aperçu du profil d'archivage. Il inclut les dates de début et de fin de stockage des documents. Aussi, la durée de rétention et la durée de recherche de rétention",
+        "version.info":"Afficher l'aperçu des documents d'archivage par version",
+        "creationDate": "Date de création",
+        "transactionId": "Identifiant de transaction",
+        "processCode": "Processus",
+        "version": "Version",
+        "doc.number": "Numéro de document",
+        "profileKey": "Profile",
+        "service": "Service",
+        "applicationId": "ID d'application",
+        "entityId": "ID d'entité",
+        "zipContainer": "Conteneur Zip",
+        "type": "Type",
+        "id": "Identifiant"
+      },
+      "btn": {}
+    }
+  },
+  "profiles": {
+    "profile": {
+      "page": {
+        "title": "Profiles",
+        "general.info":"Un profil d'archivage permet de définir précisément la manière dont les archives destinées à être transférées vers un système d'archivage électronique doivent être structurées et décrites. Il s'agit d'une déclinaison du modèle de description propre au Data Exchange Standard pour l'archivage",
+        "delete.title":"Supprimer le profil",
+        "delete.info":"Voulez-vous vraiment supprimer ce profil ?",
+        "generalinfos.title":"Informations sur la vue d'ensemble du workflow de signature",
+        "generalinfos.infos":"Informations générales sur les activités et les conditions de signature",
+        "ganeralInfo": "Informations générales",
+        "key": "Identifiant",
+        "name": "Nom",
+        "type": "Type",
+        "retentionDuration": "Durée de conservation",
+        "retentionSearchDuration": "Durée de la recherche de rétention",
+        "action": "Action",
+        "year": "Ans",
+        "hour": "Heures",
+        "day": "Journées",
+        "mount":"Mois",
+        "minute": "Minutes",
+        "second":"Seconds"
+      },
+      "search":"Chercher Profil",
+      "btn": {
+        "create.title": "Ajouter un profil",
+        "update.title": "Mise à jour",
+        "save.title": "Sauvegarder"
+      }
+    }
+  },
+  "openid": {
+    "list.title": "Connecteurs OpenID",
+    "no.data.found": ":( Nous n'avons trouvé aucun connecteur OpenID",
+    "creationDate": "date de création",
+    "customerId": "ID Client",
+    "appName": "Nom de l'application",
+    "type": "Type",
+    "properties.size": "Taille",
+    "action": "Action",
+
+    "clientType": "Type de client",
+    "appDescription": "Description de l'application",
+    "ssoUrl": "ssoUrl",
+    "grant.infos": "Gestion des permissions",
+    "issuer": "Emetteur",
+    "idpid": "Idpid",
+    "clientId": "Id client",
+    "logout": "Se déconnecter",
+    "authentication": "Authentification",
+    "forceAuthentication": "Forcer l'authentification",
+    "force2FAAuthentication": "Forcer l'authentification 2FA",
+    "secondFactor": "Deuxième facteur",
+    "redirectUris": "RedirectUris",
+    "clientSecret": "ClientSecret",
+    "discoveryUrl": "discoveryUrl",
+    "grantTypes": "type de permission",
+    "grant": "Permission",
+    "credential": "Credential",
+    "integration.details": "Détails de l'intégration",
+
+    "application.type.select": "Sélectionnez un type d'application",
+    "application.type.select.description": "Sélectionnez le type d'application OIDC qui convient le mieux au type d'application que vous souhaitez intégrer.",
+    "application.type.web.title": "Application Web",
+    "application.type.web.description": "Applications Web accessibles dans un navigateur",
+    "application.type.native.title": "Application native",
+    "application.type.native.description": "  Applications stockées et exécutées à partir d'un appareil ou d'un ordinateur de bureau",
+    "application.type.singlePage.title": "Une seule page d'application",
+    "application.type.singlePage.description": "Une application frontale qui utilise une API",
+    "application.type.default.title": "Configuration avancée",
+    "application.type.default.description": "Applications configurées par des utilisateurs avancés à partir de zéro",
+
+
+    "btn": {
+      "create.title": "Ajouter un nouveau connecteur OpenID",
+      "update.title": "Mettre à jour le connecteur OpenID",
+      "delete.title": "Supprimer le connecteur",
+      "show.title": "Afficher le connecteur"
+    },
+
+    "page": {
+      "template.title": "Sélectionnez un modèle",
+
+      "delete.title": "Confirmation de la suppression du connecteur OpenID",
+      "delete.info": "Êtes-vous sûr de vouloir supprimer OpenID Connector {{item}}?",
+      "detail.title": "Détail Connecteur OpenID",
+      "detail.info": "Informations détaillées sur le connecteur OpenID ",
+      "create.title": "Ajouter un nouveau connecteur OpenID",
+      "create.info": "Ajouter un nouveau connecteur OpenID info .",
+      "update.info": "Mettre à jour le connecteur OpenID",
+      "show.info": "Afficher le connecteur",
+
+      "authorization.title": "Autorisation",
+
+      "general.title": "Informations générales",
+      "general.info": "Informations générales ",
+
+      "grant.title": "Gestion des permissions",
+      "grant.info": " Gérer les autorisations d'application avec le serveur d'autorisation ",
+
+      "grant.authorization_code":"Code d'autorisation",
+      "grant.refresh_token":"Actualiser le jeton",
+      "grant.implicit":"Implicite",
+      "grant.password":"Mot de passe",
+      "grant.client_credentials":"Informations d'identification du client",
+
+      "grant.credential":"Identifiants",
+      "grant.integration.details":"Détail de l'intégration",
+
+      "grant.clientId":"Informations d'identification du client",
+      "grant.clientId.info":"identité du client info ",
+
+
+      "grant.clientSecret":"Clé secrète du client",
+      "grant.clientSecret.info":"Clé secrète du client info ",
+
+      "grant.discoveryUrl": "Discovery Url",
+      "grant.discoveryUrl.info": "Discovery Url info ",
+
+      "grant.issuer": "Emetteur",
+      "grant.issuer.info": "Emetteur info ",
+
+      "grant.idpid": "ID du fournisseur d'identité",
+      "grant.idpid.info": "ID du fournisseur d'identité info ",
+
+      "sso.title":"Configuration SSO ",
+      "sso.info":"Configuration SSO  info",
+
+      "sso.ssoUrl":"URL d'authentification unique (SSO)",
+      "sso.ssoUrl.info":"URL d'authentification unique (SSO) Info",
+
+      "sso.redirectUris":"Redirect Uris",
+      "sso.redirectUris.info":"Redirect Uris info ..",
+
+      "sso.logout":"Se déconnecter",
+      "sso.logout.info":"Se déconnecter Info ",
+
+      "sso.authentication":"Authentification",
+      "sso.authentication.info":" Authentification Info ",
+
+      "sso.forceAuthentication":"Forcer l'authentification",
+      "sso.forceAuthentication.info":"Forcer l'authentification Info ",
+
+      "sso.1fa.select":"1fa Sélectionner",
+      "sso.1fa.select.info":"1fa Sélectionner Info ",
+
+      "sso.force2FAAuthentication":"forcer l'authentification 2FA",
+      "sso.force2FAAuthentication.info":"forcer l'authentification 2FA Info ",
+
+      "sso.2fa.select":"2fa Sélectionner",
+      "sso.2fa.select.info":"2fa Sélectionner Info ",
+
+      "profile.title":"Configuration des attributs de profil",
+      "profile.info":"Informations sur les attributs de profil",
+
+      "scopes.title":"Champs d'application",
+      "scopes.info":"Champs d'application info",
+      "scopes.detail.title":"Champs d'application OpenID",
+      "scopes.selected.title":"Champ d'application sélectionnés",
+
+      "scopes.no.data.found":":( Nous n'avons trouvé aucun champ d'application ..",
+
+
+      "mappings.title":"Gestion de mappage",
+      "mappings.info":"Gestion de mappage Info ",
+
+      "access.title":"Gestion des accès",
+      "access.info":"Gestion des accès Info ",
+
+      "access.population.title":"Liste des populations",
+      "access.population.selected.title":"Population sélectionnée",
+      "access.population.no.data.found":":( Nous n'avons trouvé aucune population .."
+
+
+
+
+
+
+
+
+
+
+    }
+  },
+
+  "saml":{
+    "list.title": "Connecteurs SAML",
+    "no.data.found": ":( Nous n'avons trouvé aucun connecteur SAML",
+
+    "btn": {
+      "create.title": "Ajouter un nouveau connecteur SAML",
+      "update.title": "Mettre à jour le connecteur SAML",
+      "delete.title": "Supprimer le connecteur SAML",
+      "show.title": "Afficher le connecteur SAML"
+    },
+
+    "page": {
+      "delete.title": "Supprimer la confirmation du connecteur SAML",
+      "delete.info": "Voulez-vous vraiment supprimer le connecteur SAML {{item}} ?",
+      "detail.title": "Détails du connecteur SAML",
+      "detail.info": "Détails du connecteur SAML  info ",
+      "create.title": "Ajouter un nouveau connecteur SAML",
+      "create.info": "Ajouter un nouveau connecteur SAML info .",
+      "update.info": "Mettre à jour le connecteur SAML",
+      "show.info": "Afficher le connecteur SAML ..",
+
+      "template.title":"Sélectionnez un modèle",
+      "template.choose":"Sélectionnez le modèle sur lequel la configuration et la politique de votre application seront basées.",
+      "template.public.title":"Application publique",
+      "template.public.description":"Cette application doit être accessible en interne et en externe, et la connexion n'est pas requise. L'authentification multifacteur ne sera pas requise.",
+      "template.internal.title":"Application interne",
+      "template.internal.description":"Cette application doit être accessible uniquement aux employés internes et aux partenaires. Ils devront se connecter via SSO, nécessitant éventuellement une authentification MFA.",
+      "configs.title": "Configurations",
+      "auth.title": "Authentifications",
+      "groups.title": "Groupes",
+      "mappings.title": "Mappages"
+
+    },
+
+    "creationDate":"Date de création",
+    "clientId":"ID client",
+    "clientType":"Type",
+    "appName":"Nom de l'application",
+    "appDescription":"Description de l'application",
+    "action":"Action",
+
+    "ssoUrl":"URL SSO ",
+    "entityId":"ID Entité",
+    "signingAlgorithm":"Algorithme de signature",
+    "assertionSignature":"Signature d'assertion",
+    "responceSignature":"Signature de la réponse",
+    "nameIDFormat":"Format d'identification du nom",
+    "wantAuthnRequestsSigned":"Demandes d'authentification signées",
+    "defaultRelayState":"État du relais par défaut",
+    "authentication":"Authentification",
+    "forceAuthentication":"Forcer l'authentification",
+    "force2FAAuthentication":"Forcer l'authentification 2FA",
+    "mappings":"mappages",
+    "attribute":"Attribut"
+  },
+
+  "radius":{
+    "list.title": "Connecteurs de radius",
+    "no.data.found": ":( Nous n'avons pas trouvé de connecteur Radius",
+
+    "btn": {
+      "create.title": "Ajouter un nouveau connecteur Radius",
+      "update.title": "Mettre à jour le connecteur Radius",
+      "delete.title": "Supprimer le connecteur Radius",
+      "show.title": "Afficher le connecteur Radius"
+    }
+  },
+
+  "scim":{
+    "list.title": "Connecteurs SCIM",
+    "no.data.found": ":( Nous n'avons trouvé aucun connecteur SCIM",
+
+    "btn": {
+      "create.title": "Ajouter un nouveau connecteur SCIM",
+      "update.title": "Mettre à jour le connecteur SCIM",
+      "delete.title": "Supprimer le connecteur SCIM",
+      "show.title": "Afficher le connecteur SCIM"
+    }
+  },
+  "monitoring": {
+    "page": {
+      "service.status": "État du service",
+      "mem.usage": "Utilisation de la mémoire",
+      "mem.max": "Mémoire Max",
+      "cpu.usage": "Utilisation du CPU",
+      "disk.usage": "Utilisation du disque",
+      "disk.max": "Disque Max",
+      "requests.count": "Nombre de requêtes HTTP",
+      "jvm.threads": "JVM threads",
+      "memory.usage": "Utilisation de la mémoire",
+      "disk.space.usage": "Utilisation de l'espace disque",
+      "requests.by.count": "Requêtes par code de réponse HTTP",
+      "chart":{
+        "disk.usage": "Espace disque utilisé (%)",
+        "mem.usage": "Mémoire utilisée (%)",
+        "cpu.usage": "CPU utilisé (%)",
+        "requests.count": "Nombre de requêtes"
+      },
+      "table": {
+        "request.time": "Temps",
+        "status.code": "Code de status",
+        "request.success": "Success",
+        "request.error.client": "Erreur de client",
+        "request.error.server": "Erreur de Serveur",
+        "status.description": "Description",
+        "request.sum": "Somme des requêtes"
+      }
+    }
+  },
+  "webhook":{
+    "webhooks":{
+      "page":{
+        "title":"Webhooks",
+        "show.title":"Afficher la liste des webhooks",
+        "btn.add":"Ajouter Webhook",
+        "search":"Rechercher des webhook",
+        "no.data.found":":( Nous n'avons trouvé aucun Webhook ..",
+        "url":"Lien",
+        "name":"Nom",
+        "service":"Service",
+        "apiId":"Web Service",
+        "status":"Stauts",
+        "event":"Event",
+        "mapper":"Attribut",
+        "creationDate":"Date de Création",
+        "lastUpdate":"Date de modification",
+        "action":"Action",
+        "enable.title": "Confirmer l'activation de webhook",
+        "enable.info": "Êtes-vous sûr d'activer ce webhook ?",
+
+        "disable.title": "Confirmer la désactivation de webhook",
+        "disable.info": "Êtes-vous sûr de vouloir désactiver ce webhook  ?",
+        "delete.confirm.body": "Vous êtes sur le point de supprimer un Webhook. Voulez-vous confirmer?",
+        "delete.confirm.title": "Confirmer la  Suppression de Webhook",
+        "add.title":"Ajouter Webhook",
+        "update.title":"Modifier Webhook",
+        "update.status":"Statut mis à jour avec succès"
+      }
+    }
+  },
+  "drafts":{
+    "draft":{
+      "page":{
+        "title":"Template"
+      }
+    },
+    "no.data.found":":( We couldn't find any Draft"
+  },
+  "modeles":{
+    "modele":{
+      "page":{
+        "title":"Modeles"
+      }
+    },
+    "no.data.found":":(  Nous n'avons trouvé aucune template"
+  },
+  "common": {
+
+    "selection": "Sélection",
+    "search": "Rechercher",
+    "show": "Afficher",
+    "add": "Ajouter nouveau",
+    "disabled": "Désactivé",
+    "enabled": "Activé",
+    "action": "Actions",
+    "edit": "Editer",
+    "delete": "supprimer",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "save": "Enregistrer",
+    "ok": "OK",
+    "next": "Suivant",
+    "success":"Succès",
+    "error":"Erreur",
+    "all":"Tout",
+    "today":"AUJOURD'HUI",
+    "previous": "Précédent",
+    "cancel": "Annuler",
+    "true": "Vrai",
+    "false": "Faux",
+    "attributes": "Attributs",
+    "status": "Statut",
+    "createOn": "Date de création",
+    "updateOn": "Dernière mise à jour",
+    "active": "Actif",
+    "desactivate": "Désactivé",
+    "disable": "Désactiver",
+    "expirationDate": "Date d'expiration",
+    "export": {
+      "label": "Exporter",
+      "exportFormat": "Exporter en tant que",
+      "csvFormat": "Format CSV",
+      "jsonFormat": "Format Json"
+    },
+    "showData": {
+      "show": "Afficher ",
+      "showData": "Afficher les données comme",
+      "board": "table",
+      "grid": "Grille"
+    }
+
+  },
+  "evidencesSize": {
+    "quality": {
+      "superior": "Qualité supérieure",
+      "strong": "Qualité forte",
+      "fair": "Qualité équitable"
+    },
+    "validating": {
+      "superior": "Validation supérieur",
+      "strong": "Validation forte",
+      "fair": "Validation équitable"
+    },
+    "verifying": {
+      "superior": "Vérification Supérieure",
+      "strong": "vérification forte",
+      "fair": "Vérification équitable"
+    }
+
+  },
+  "filters": {
+    "no.data.found": ":( Nous n'avons trouvé aucune règle d'authentification contextuelle..",
+    "contextual.title": "Règles d'authentification contextuelles",
+    "contextual.new": "Nouvelle règle d'authentification contextuelle",
+    "contextual.detail.overview":"Vue d'ensemble",
+    "contextual.detail.overview.info" : "Le contexte de l'utilisateur est identifié en exploitant les données collectées à partir de la session de l'utilisateur, y compris les données sur l'appareil, le réseau et la localisation.",
+
+    "contextual.detail.devices": "Appareils",
+    "contextual.detail.devices.info": "L'identification de l'appareil de l'utilisateur est la première étape importante dans l'identification du contexte de l'utilisateur.  Un appareil connu avec un bon historique est le premier signe de confiance",
+    "contextual.detail.device.add": "Ajouter une Appareil",
+    "contextual.detail.devices.no.data.found": ":( Nous n'avons trouvé aucun appareil ..",
+
+
+    "contextual.detail.geolocalisation": "Géolocalisation",
+    "contextual.detail.geolocalisation.info": "La possibilité de déterminer l'emplacement physique de l'appareil qui est utilisé par quelqu'un qui tente de s'identifier, l'adresse IP est vérifiée pour déterminer où se trouve physiquement le terminal à partir duquel vous vous connectez ",
+    "contextual.detail.geolocalisation.add": "Ajouter la géolocalisation",
+    "contextual.detail.geolocalisation.no.data.found": ":( Nous n'avons trouvé aucune géolocalisation",
+
+    "contextual.detail.networks": "Réseaux",
+    "contextual.detail.networks.info": "Les données réseau sont un autre type de données pertinentes pour le contexte d'un utilisateur. Si l'utilisateur est sur un réseau mobile, l'utilisateur peut être vérifié sans friction à l'aide des données fournies ",
+    "contextual.detail.networks.add": "Ajouter un nouveau réseau",
+    "contextual.detail.networks.no.data.found": ":( Nous n'avons trouvé aucun réseau ..",
+    "contextual.detail.networks.type.inOneOfTheFollowingZone":"Dans l'une des zones suivantes",
+    "contextual.detail.networks.type.inAnyNetworkZoneGaia":"Dans n'importe quelle zone réseau GAÏA",
+    "contextual.detail.networks.type.notInAnyZoneGaia":"Pas dans n'importe quelle zone GAÏA",
+    "contextual.detail.networks.type.notInTheFollowingZone":"Pas dans la zone suivante",
+    "contextual.detail.networks.type.anyIp":"N'importe quelle IP",
+
+    "contextual.detail.anonymous.networks": "Réseau anonyme",
+    "contextual.detail.anonymous.networks.info": "Gérez le protocole d'authentification anonyme et améliorez la sécurité en forçant l'authentification et en autorisant uniquement les utilisateurs authentifiés à accéder à l'application.",
+    "contextual.detail.anonymous.networks.add": "Ajouter un nouveau réseau anonyme",
+    "contextual.detail.anonymous.networks.no.data.found": ":( Nous n'avons trouvé aucun réseau anonyme",
+
+    "contextual.detail.browsers": "Navigateurs",
+    "contextual.detail.browsers.info": "Cela peut être considéré comme un sous-ensemble des informations sur l'appareil . La durée de vie de cette session est paramétrable. La présence ou l'absence de cette session peut être utilisée pour établir si l'appareil a déjà été utilisé, ce qui peut renforcer la crédibilité ",
+    "contextual.detail.browsers.add": "Ajouter un nouveau navigateur",
+    "contextual.detail.browsers.no.data.found": ":( Nous n'avons pas trouvé de navigateurs ",
+
+
+
+
+    "title":"Détail du filtre",
+    "key": "Clé",
+    "name": "Nom",
+    "label": "Étiquette",
+    "description": "Description",
+    "rules": "Réglas",
+    "equation": "Équation",
+    "rule": {
+      "key": "Clé",
+      "name": "Nom",
+      "description": "Description",
+      "type": "Type",
+      "operation": "Opération"
+    }
+  },
+  "attribute": {
+    "key": "Clé d'attribut",
+    "code": "Code d'attribut",
+    "name": "Nom de l'attribut",
+    "description": "Description de l'attribut",
+    "category": "Catégorie d'attribut",
+    "context": "Context",
+    "required": "Obligatoire",
+    "searchable": "Searchable",
+    "unique": "Unique",
+    "editable": "Modifiable",
+    "calculable": "Calculable",
+    "multiValued": "Valeurs multiples",
+    "derivedAttribute": "Attribut dérivé",
+    "auditable": "Auditable",
+    "encrypted": "Crypté",
+    "shared": "Partagé",
+    "proof": "Preuve",
+    "consent": "Consentement",
+    "evidence.type": "Type de preuve",
+    "evidence.quality": "Qualité des preuves",
+    "evidence.validating": "Validation des preuves",
+    "evidence.verifying": "Vérification des preuves",
+    "format": {
+      "string": "Chaîne de caractères",
+      "long": "Long",
+      "mobile": "Mobile",
+      "mail": "Mail",
+      "date": "Date",
+      "json": "Json",
+      "boolean": "Boolean",
+      "label": "Format d'attribut"
+    }
+
+  },
+  "policy": {
+    "category": "Catégorie de politique",
+    "eid": "Politique Personne Physique",
+    "picture": "Logo de la politique",
+    "key": "Code politique",
+    "label": "Etiquette de la politique",
+    "description": "Description de la politique",
+    "version": "version de la politique",
+    "ial": {
+      "title": "Ial",
+      "add": "Ajouter un nouveau niveau d'assurance d'identité IAL",
+      "no.data.found" :":( Nous n'avons trouvé aucun niveau d'assurance d'identité IAL"
+    },
+    "aal": {
+      "title": "AAL",
+      "add": "Ajouter un nouveau niveau d'assurance d'authentification AAL",
+      "no.data.found" :":( Nous n'avons trouvé aucun niveau d'assurance d'authentification AAL"
+    },
+    "fal": {
+      "title": "AAL",
+      "add": "Ajouter un nouveau niveau d'assurance de fédération FAL",
+      "no.data.found" :":( Nous n'avons trouvé aucun FAL de niveau d'assurance de la fédération"
+    },
+    "profile": {
+      "no.data.found":":( Nous n'avons trouvé aucun profil d'identité"
+    },
+    "publish": "Publier",
+    "unpublish": "Annuler la publication"
+
+  },
+  "identity": {
+    "email": "E-mail",
+    "name": "Nom",
+    "phone": "Phone",
+    "role": "Rôles",
+    "state": "État",
+    "locked": "verrouillé",
+    "unlocked": "Active",
+
+    "enabled.true": "Activé",
+    "enabled.false": "Désactivé",
+    "issuer": "Émetteur",
+    "creationDate": "Date de création",
+    "lastLogin": "Dernière connexion",
+    "status": "Statut",
+    "os":"système d'exploitation",
+    "device":"Dispositif",
+    "oath.type":"Type",
+    "status.enroled": "Inscrit",
+    "status.valide": "Validé",
+    "status.enrolled":"Inscrit",
+    "status.enrolled.ko":"Non inscrit",
+    "state.locked.true": "Bloqué",
+    "state.locked.false": "Non Bloqué",
+    "size": "Identités déclarées",
+    "locked.size": "Bloqué",
+    "timeLocked.size": "verrouillé temporairement",
+    "inactive.size": "Inactifs",
+    "onHold.size": "En attente",
+    "suspended.size": "Suspendu",
+    "method.size": "Méthodes",
+    "password":"Mot de passe",
+    "userMustChangePwd":"L'utilisateur doit changer de mot de passe",
+    "userCannotChangePwd":"L'utilisateur ne peut pas changer le mot de passe",
+    "useDirectoryPwd":"Utiliser le mot de passe Directory",
+    "autoGenerate":"Génération automatique",
+
+    "tags": {
+      "state": {
+        "info": "Etat",
+        "accessLocked": "Accès bloqué",
+        "locked": "Bloqué",
+        "timeLocked": "verrouillé temporairement",
+        "suspended": "Suspendu",
+        "revoked": "Révoqué"
+      },
+      "proof": {
+        "info": "Étiquettes de preuve",
+        "photos": "Photos insatisfaisantes",
+        "cardid": "ID de carte invalide",
+        "phone": "Téléphone vérifié",
+        "email": "E-mail vérifié"
+      },
+      "status.onHold": "En cours"
+    },
+    "auth": {
+      "fido": {
+        "title": "Fido",
+        "info":"Les utilisateurs peuvent authentifier ou valider les transactions en toute sécurité via FIDO",
+        "method.no.data.found": ":) Nous n'avons trouvé aucune méthode FIDO affectée",
+        "confirm.delete.title":"Supprimer FIDO",
+        "confirm.delete.info":"Vous êtes sur le point de supprimer la méthode FIDO. Voulez-vous confirmer?",
+        "user.log": "Historique FIDO",
+        "regenerate":"Régénérer FIDO"
+      },
+      "oathHard": {
+        "title": "Tokens physiques",
+        "info": "Les utilisateurs sans connexion Internet ou sans smartphone peuvent toujours s'authentifier en toute sécurité à l'aide d'un code OTP (One Time Password) géneré sur un token physique.",
+        "method.no.data.found": ":) Nous n'avons trouvé aucune méthode OATH Token affectée",
+        "user.log": "Historique OATH matériel",
+        "add": "Ajouter un Token physique",
+        "create": "Ajouter un Token physique",
+        "create.info": "Ajouter un Token physique",
+        "delete": "Supprimer un Token physique",
+        "delete.info": "Supprimer un Token physique",
+        "sync": "Synchroniser le Token physique",
+        "pwd.regenerate": "Régénérer Pwd",
+        "regenerate":"Régénérer le Token physique",
+        "confirm.delete.title":"Supprimer le Token physique",
+        "confirm.delete.info":"Vous êtes sur le point de supprimer la méthode Token physique. Voulez-vous confirmer ?"
+      },
+      "oath": {
+        "title": "Software OTP ",
+        "user.log": "Historique Software OTP",
+        "info": "Les utilisateurs peuvent authentifier ou valider les transactions en toute sécurité grâce à l'utilisation de la méthode Mobile OTP. Cette méthode génère un code OTP (One Time Password) sur le smartphone enregistré protégé par un code PIN",
+        "method.no.data.found": ":( Nous n'avons trouvé aucune authentification logicielle OTP affectée",
+        "add": "Ajouter un Software OTP(totp / hotp)",
+        "create": "Ajouter un Software OTP(totp / hotp)",
+        "create.info": "Ajouter un Software OTP (totp / hotp)",
+        "delete": "Supprimer un Software OTP (totp / hotp)",
+        "regenerate": "Regenérer un Software OTP (totp / hotp)",
+        "regenerate.info": "Regenérer un Software OTP (totp / hotp)",
+        "delete.info": "supprimer un Software OTP (totp / hotp)",
+        "confirm.delete.title":"supprimer un Software OTP",
+        "confirm.delete.info":"Vous êtes sur le point de supprimer la méthode OTP du logiciel. Voulez-vous confirmer ?"
+      },
+      "password": {
+        "title": "Mot de passe",
+        "user.log": "historique de mot de passe",
+        "info": "Basée sur la gestion d'un secret, l'authentification par nom d'utilisateur et mot de passe est un moyen simple et peu coûteux à déployer pour contrôler les accès. Cependant, cette méthode d'authentification a un faible niveau de sécurité et il est recommandé d'ajouter d'autres moyens d'authentification à cette méthode pour atteindre les niveaux de garantie prévus par la réglementation",
+        "create": "Ajouter un mot de passe",
+        "create.info": "Ajouter un mot de passe",
+        "delete": "Supprimer le mot de passe",
+        "delete.info": "Supprimer le mot de passe",
+        "regenerate": "Régénérer le mot de passe",
+        "regenerate.info": "Régénérer le mot de passe",
+        "method.no.data.found": ":) Nous n'avons trouvé aucune méthode de mot de passe attribuée",
+        "confirm.delete.title":"Supprimer le mot de passe",
+        "confirm.delete.info":"Vous êtes sur le point de supprimer la méthode de mot de passe. Voulez-vous confirmer ?"
+      },
+      "push": {
+        "title": "Push",
+        "user.log": "historique Push",
+        "info": "La méthode d'authentification multi-facteurs PUSH permet d'envoyer des notifications sur le mobile de l'utilisateur pour un accès rapide et sécurisé à vos services",
+        "create": "Ajouter Push",
+        "create.info": "Ajouter Push",
+        "delete": "Supprimer Push",
+        "delete.info": "Supprimer Push",
+        "regenerate": "Régénérer PUSH",
+        "regenerate.info": "Régénérer un nouveau profil Push",
+        "method.no.data.found": ":( Nous n'avons trouvé aucune méthode push affectée",
+        "confirm.delete.title":"Supprimer PUSH",
+        "confirm.delete.info":"Vous êtes sur le point de supprimer la méthode PUSH. Voulez-vous confirmer ?"
+      },
+      "sms": {
+        "title": "OTP SMS",
+        "user.log": "Historique OTP SMS",
+        "info": "Les utilisateurs sans connexion internet ou sans smart phone peuvent toujours s'authentifier de manière sécurisée grâce à l'utilisation d'un code OTP (One Time Password) envoyé par GAIA. Après avoir effectué l'authentification principale, basée en général sur la méthode Password, GAIA envoie à l'utilisateur un code OTP par SMS sur son mobile. Cet OTP peut aussi être envoyé par mail ",
+        "create": "Ajouter SMS OTP",
+        "create.info": "Ajouter SMS OTP",
+        "delete": "Supprimer SMS OTP",
+        "delete.info": "Supprimer SMS OTP",
+        "method.no.data.found": ":( Nous n'avons trouvé aucune authentification SMS OTP affectée",
+        "confirm.delete.title":"Supprimer SMS OTP",
+        "confirm.delete.info":"vous êtes sur le point de supprimer la méthode SMS OTP. Voulez-vous confirmer ?",
+        "regenerate":"Régénérer SMS OTP"
+      },
+      "face": {
+        "title": "Reconnaissance faciale",
+        "user.log": "historique Reconnaissance faciale",
+        "add": "Ajouter Reconnaissance faciale",
+        "info": "Les utilisateurs peuvent authentifier ou valider les transactions en toute sécurité grâce à l'utilisation de la méthode de reconnaissance faciale ",
+        "method.no.data.found": ":( Nous n'avons trouvé aucune méthode de reconnaissance faciale affectée",
+        "confirm.delete.title":"Supprimer Reconnaissance faciale",
+        "confirm.delete.info":"Vous êtes sur le point de supprimer la méthode FACE. Voulez-vous confirmer ?",
+        "regenerate":"régénérer méthode reconnaissance faciale"
+
+      }
+    }
+  },
+
+  "search": {
+    "search": "Rechercher",
+    "identity.profile": "profil Identité",
+    "context": "Opération contextuelle",
+    "data": "Détail recherche",
+    "yesterday": "24 heures",
+    "lastWeek": "7 jours",
+    "lastMonth": "30 Jours",
+    "lastTwoMonths": "2 mois",
+    "lastThreeMonths": "3 mois",
+    "allTime": "Tout le temps",
+    "last.six.hours": "6 heures",
+    "last.twelve.hours": "12 heures",
+    "last.eighteen.hours": "18 heures",
+    "last.day": "24 heures",
+    "last.two.days": "48 heures",
+    "all": "Identité",
+    "audit":"Recherche d'audit",
+    "entities": "By Entité",
+    "applications": "Par application",
+    "processes": "Par processus",
+    "statistics": "Filtre",
+    "policy": "Politique",
+    "iam": "Niveau IAM",
+    "clear":"Suppression de filter",
+    "organisation": "Organisation",
+    "issuer": "Emetteur",
+    "process":"Processus",
+    "model":"Modèl",
+    "action": "Contexte",
+    "trust.level": "Profil",
+    "tags.status": "Statut",
+    "tags.sended": "envoyé",
+    "policyKey": "Politique",
+    "policyLevel": "Niveau de confiance",
+    "tags.state": "Etat",
+    "role":"Rôle",
+    "taskName":"Nom de la tâche",
+    "nextUserTask":"Tâche utilisateur actuelle",
+    "tags.proof": "Balise Preuve",
+    "period": "Période",
+    "period.all": "Toutes les dates",
+    "period.bydate": "Dates",
+    "start.date": "Date de début",
+    "end.date": "Date fin"
+  },
+  "token": {
+    "appId": "Id application",
+    "subject": "Sujet",
+    "id": "Identifiant",
+    "amr": "Amr",
+    "scopes": "Périmètre",
+    "authTime": "Génération de jetons",
+    "tokenExpiresIn": "Expiration du jeton",
+    "action": "Action"
+  },
+  "workflow":{
+    "title": "Consumer Journey",
+    "add": "Ajouter Consumer Journey",
+    "name":"Nom ",
+    "usageId":"ID Usage",
+    "description":"Description",
+    "status":"Statut",
+    "creationDate":"Date de Création",
+    "updatedDate":"Dernière mise à jour",
+    "category":"Categorie",
+    "key":"Clé du Workflow",
+    "owner": "Propriétaire",
+    "success": "Succès",
+    "avg.rate": "Moy. Erreur",
+    "state": "Etat",
+    "actions": "Actions",
+    "activate":"Activé/Desactivé",
+    "active": "Activé",
+    "desactivated": "Désactivé",
+    "appNumber":"Nombre d'App",
+    "lastUpdate":"Dernière mise à jour",
+    "entity":"Entité",
+    "policyKey":"Clé de politique",
+    "policyLevel":"Niveau de confiance",
+    "mode":"Mode",
+    "application":"Applications",
+    "webhook":"Webhook",
+    "all":"All",
+    "deactivated":"Desactivé",
+    "modes.api":"API",
+    "updateDate":"Dernière mise à jour",
+    "no.data.found":":( Nous n'avons trouvé aucun workflow..",
+    "instance.size":"Nombre de requête"
+  },
+  "contextual":{
+      "title":"Authentification contextuelle",
+      "appIds.length":"Nombre d'applications",
+      "key":"Clé",
+      "name":"Nom",
+      "description":"Description",
+      "action":"Action"
+  },
+  "api-connector":{
+    "title":"Affichages des connecteurs API"
+  },
+  "settings": {
+
+    "risk.policies": "Politiques de risque",
+    "risk.policies.add": "Ajouter une nouvelle politique de risque",
+
+    "openid-rp": "Fournisseurs d'identité",
+    "openid-rp.title": "Fournisseurs d'identité",
+    "openid-rp.add": "Nouveau Fournisseurs d'identité",
+    "openid-rp.name": "Nom",
+    "openid-rp.redirectUri": "Redirect URI",
+    "openid-rp.no.data.found": ":( Nous n'avons trouvé aucun fournisseur d'identité",
+    "openid-rp.generalTitle": "Fournisseurs d'identité",
+    "openid-rp.routingRules.title": "Règles de routage",
+    "openid-rp.registrationId": "ID d'enregistrement",
+    "openid-rp.clientId": "Id client ",
+    "openid-rp.clientSecret": "Clé secrète du client",
+    "openid-rp.scopes": "Scopes",
+    "openid-rp.protocol": "Protocole",
+    "openid-rp.provider": "Fournisseur",
+    "openid-rp.policyKey": "Clé de la politique",
+    "openid-rp.policyLevel": "Niveau politique",
+    "openid-rp.creationDate": "Date de création",
+    "openid-rp.lastUpdate": "Dernière mise à jour",
+
+    "openid-rp.idpUserName": "nom d'utilisateur idp",
+    "openid-rp.gaiaUserName": "nom d'utilisateur gaia",
+    "openid-rp.gaiaUserName.label": "Choisissez l'attribut utilisateur à mettre en correspondance avec le nom d'utilisateur IdP.",
+    "openid-rp.attributes": "Attributs",
+    "configurations":"Configurations",
+
+    "openid-rp.saml": "Paramètres du protocole SAML",
+    "openid-rp.saml.idpIssuerUri": "URI de l'émetteur du fournisseur d'identité ",
+    "openid-rp.saml.idpSingleSignOnUrl": "URL d'authentification unique IdP ",
+    "openid-rp.saml.idpSignatureCertificate": "Certificat de signature IdP",
+    "openid-rp.saml.metadataLocation":"Emplacement des métadonnées",
+
+    "openid-rp.clientSecretSigningKey": "Clé de signature secrète du client",
+    "openid-rp.keyId": "ID de clé",
+    "openid-rp.teamId": "ID d'équipe",
+
+
+    "openid-rp.openid": "Terminaux",
+    "openid-rp.openid.issuer": "Emetteur ",
+    "openid-rp.openid.authorizationEndpoint": "Authorisation terminaux",
+    "openid-rp.openid.tokenEndpoint": "Jeton du terminal",
+    "openid-rp.openid.JWKSEndpoint": "JWKS du terminal",
+    "openid-rp.openid.UserInfoEndpoint": "Information d'utilisateurs terminaux",
+
+    "configuration": {
+      "identity-service.label": "Identity service",
+      "identity.description": "Identity service description ...",
+      "authenticator-service.label": "Authenticator service",
+      "authenticator.description": "authenticator service description ...",
+      "access-service.label": "Access service",
+      "access.description": "access service description ...",
+      "signing-service.label": "Signature service",
+      "signing.description": "signing service description ...",
+      "orchestrator-service.label": "Orchestrator service",
+      "orchestrator.description": "orchestrator service description ...",
+      "global-service.label": "Global service",
+      "global.description": "global service description ...",
+      "connector-service.label": "Connector service",
+      "connector.description": "connector service description ...",
+      "authentication-service.label": "authentication service",
+      "authentication.description": "authentication service description ...",
+      "auth-service.label": "Auth service",
+      "auth.description": "Auth service description ...",
+      "push-service.label": "push service",
+      "push.description": "push service description ...",
+      "oauth-service.label": "oauth service",
+      "oauth.description": "oauth service description ...",
+      "token-service.label": "token service",
+      "token.description": "token service description ...",
+      "openid.label": "openid service",
+      "openid-service.label": "openid service",
+      "openid.description": "Allows users to be authenticated by co-operating sites (known as relying parties, or RP) using a third-party identity provider (IDP) service.",
+      "otpk-service.label": "otpk service",
+      "otpk.description": "otpk service description ...",
+      "archive-service.label": "archive service",
+      "archive.description": "archive service description ...",
+      "asic-service.label": "asic service",
+      "asic.description": "asic service description ...",
+      "signature-audit-service.label": "signature-audit service",
+      "signature-audit.description": "signature-audit service description ...",
+      "server-service.label": "server service",
+      "server.description": "server service description ...",
+      "hsm-service.label": "hsm service",
+      "hsm.description": "hsm service description ...",
+      "gateway-service.label": "gateway service",
+      "gateway.description": "gateway service description ...",
+      "uaaproxy-service.label": "uaaproxy service",
+      "uaaproxy.description": "Enables load balancing and application acceleration",
+      "risk-service.label": "risk service",
+      "risk.description": "Is a subset of multifactor authentication and seeks to match the requirement for certain identity credentials, with the perceived risk posed by the authentication requested. ",
+      "endpoint-service.label": "endpoint service",
+      "endpoint.description": "endpoint service description ...",
+      "activity-service.label": "activity service",
+      "activity.description": "activity service description ...",
+      "uaa-service.label": "uaa service",
+      "uaa.description": "uaa service description ...",
+      "workflow-service.label": "workflow service",
+      "workflow.description": "workflow service description ...",
+      "discovery-service.label": "discovery service",
+      "discovery.description": "discovery service description ...",
+      "audit-service.label": "audit service",
+      "audit.description": "audit service description ...",
+      "notification-service.label": "notification service",
+      "notification.description": "notification service description ...",
+      "list-service.label": "list service",
+      "list.description": "list service description ...",
+      "filter-service.label": "filter service",
+      "filter.description": "filter service description ...",
+      "pdf-generator-service.label": "pdf-generator service",
+      "pdf-generator.description": "pdf-generator service description ...",
+      "license-service.label": "license service",
+      "license.description": "license service description ...",
+      "pki.label": "pki service",
+      "pki.description": "The Public Key Infrastructure (PKI) service used to manage connector that creates, stores, and distributes digital certificates.",
+      "document-service.label": "Consumer service",
+      "document.description": "Document service description",
+      "certificate-service.label": "Certificate service",
+      "certificate.description": "Certificate service description",
+      "policy-service.label": "Policy service",
+      "policy.description": "Policy service description",
+      "admin-service.label": "Admin service",
+      "admin.description": "Admin service description",
+      "user-repository-service.label": "User Repository service",
+      "user-repository.description": "User Repository service description",
+      "sms-gateway.label": "Sms Gateway service",
+      "sms-gateway.description": "Sms Gateway service description",
+      "radius.label": "Radius service",
+      "radius.description": "Advanced setting to forwards the authentication request to a third-party RADIUS server.",
+      "api-connector.label": "Api Connector service",
+      "api-connector.description": "Api Connector service description",
+      "saml.label": "SAML service",
+      "saml-service.label": "SAML service",
+      "saml.description": "Advanced setting facilitates you to authenticate with SAML 2.0 with the Web Authentication method.",
+      "nexus.label": "Nexus PKI Connector",
+      "nexus.description": "Nexus PKI Connector description",
+      "active-directory.label": "Active directory Connector",
+      "active-directory.description": "Active directory Connector description",
+      "default.sms-gateway.label": "SMS Gateway default",
+      "default.sms-gateway.description": "SMS Gateway default Connector description",
+      "default.radius.label": "RADIUS default",
+      "default.radius.description": "RADIUS default Connector description",
+      "default.saml.label": "SAML default ",
+      "default.saml.description": "SAML default Connector description",
+      "default.openid.label": "OPENID default",
+      "default.openid.description": "OPENID default Connector description",
+      "service.attribute.add.title": "Add new attribute to {{service}}",
+      "rollback.date": "Date",
+      "rollback.title": "Select date of configuration rollback",
+      "refresh.title": "Refresh Configuration Confirmation",
+      "refresh.info": "Are you sure you want to refresh all the configuration ?",
+      "configuration": {
+        "btn": {
+          "update": "Update",
+          "add": "Add",
+          "refresh": "Refresh",
+          "rollback": "Rollback"
+        },
+        "page": {
+          "key": "Key",
+          "value": "Value",
+          "type": "Type",
+          "action": "Action",
+          "all": "ALL",
+          "cm": "CM",
+          "datasource": "Datasource",
+          "logging": "Logging",
+          "server": "server",
+          "usage": "usage",
+          "wsip": "wsip"
+        }
+      },
+      "attribute": {
+        "page": {
+          "delete.title": "Delete Attribute Confirmation",
+          "delete.info": "Are you sure you want to delete attribut : {{id}} ?",
+          "update.title": "Update Attribute Confirmation",
+          "update.info": "Are you sure you want to update attribut : {{id}} ?"
+        }
+      },
+      "connectors": {
+        "usage": "Usage",
+        "name": "Name",
+        "description": "Description",
+        "algorithm": "Algorithm",
+        "login": "Login",
+        "proxy": "Proxy",
+        "url": "URL",
+        "key": "Key",
+        "value": "Value",
+        "type": "Type",
+        "state": "State",
+        "update": "Update",
+        "save": "Save",
+        "pwd": "Password",
+        "proxyEnabled": "Proxy state",
+        "proxyIp": "Proxy Ip",
+        "proxyPort": "Proxy Port",
+        "idp-metadata": "Build IDP Metadata",
+        "sms-gateway.add": "Add SMS Gateway",
+        "sms.proxyEnabled": "Enabled",
+        "sms.proxyDisabled": "Disabled",
+        "sms-conf.title": "SMS Global Information",
+        "sms-config.create.title": "Create SMS Connector",
+        "sms-config.delete.title": "Delete Sms Gateway Confirmation",
+        "sms-config.delete.info": "Are you sure you want to delete this Sms?",
+        "sms-config.update.title": "Update SMS Connector",
+        "openid-conf.title": "OpenID Global Information",
+        "saml-conf.title": "SAML Global Information",
+        "pki-conf.title": "PKI Nexus Global Information",
+        "radius-conf.title": "RADIUS Global Information",
+        "openid-conf.add": "Add new openID attribute",
+        "openid-conf.create.title": "Enter parameter of configuration",
+        "pki": {
+          "usage": "Usage",
+          "name": "Name",
+          "description": "Description",
+          "algorithm": "Algorithm",
+          "path": "Path",
+          "procedures": "Procedures",
+          "cm.ssl.selector": "Selector",
+          "pin.cert.path": "Pin cert path",
+          "cm.root.file": "CM root file",
+          "cm.ssl.file": "CM ssl file",
+          "cm.ssl.pin": "CM ssl pin",
+          "rsa.key.size": "RSA key size",
+          "cm.ssl.cipher": "CM ssl cipher",
+          "country": "Country",
+          "organization": "Organization",
+          "organization.unit": "Organization Unit",
+          "cm.server": "CM server",
+          "create.title": "Create Pki Connector",
+          "update.title": "Update Pki Connector",
+          "create": "Create new Usage"
+        },
+        "page": {
+          "delete.title": "Delete Attribute Confirmation",
+          "delete.info": "Are you sure you want to delete attribut : {{key}} ?"
+        }
+      }
+    },
+
+    "openid-rp.created": "Si aucune correspondance n'est trouvée",
+    "openid-rp.created.false": "Rediriger vers la page de connexion de Gaia",
+    "openid-rp.created.true": "Créer un nouvel utilisateur (JIT)",
+    "openid-rp.updatedData": "Source du profil",
+    "openid-rp.updatedData.label": "Mettre à jour les attributs des utilisateurs existants",
+
+
+    "openid-rp.advanced": "Réglages avancés",
+    "openid-rp.mappings": "Mappage",
+
+    "risk.policy":{
+      "title":"Politiques de risque",
+      "add":"Ajouter une politique de risque",
+      "info":"informations sur la politique de risque .",
+      "name":"Nom",
+      "description":"Description",
+      "lastModifiedDate":"Dernière mise à jour",
+      "createdDate":"Date de création",
+      "action":"Action"
+    },
+
+    "ldaps": "Annuaire",
+    "ldaps.title": "Annuaire",
+    "ldaps.add": "Nouveau annuaire",
+    "ldaps.no.data.found": ":( Nous n'avons trouvé aucun annuaire",
+
+    "api-connectors": "Connecteurs",
+    "api-connectors.title": "Connecteurs ",
+    "api-connectors.add": "Nouveau Connecteur",
+    "api-connectors.no.data.found": ":( Nous n'avons trouvé aucun Connecteur",
+
+    "contextual":"Authentification contextuelle",
+    "admin-auth":"Administrateur Auth",
+    "providers": "Fournisseurs OATH ",
+    "providers.title": "Fournisseurs OATH",
+    "security":"Protection contre les attaques",
+    "networks":"Réseaux",
+    "admins-auth":{
+      "title":"Authentification de l'administrateur"
+    },
+    "network":{
+      "title":"Réseaux",
+      "add":"Ajouter un réseau",
+      "no.data.found": ":( Nous n'avons trouvé aucune configuration de réseau",
+      "update.ipZone":"Mettre à jour la zone IP",
+      "create.ipZone":"Créer une zone IP ",
+      "update.dynamicZone":"Mettre à jour la zone dynamique ",
+      "create.dynamicZone":"Créer une zone dynamique ",
+      "zone.name":"Nom de zone",
+      "proxy.ips":"IP proxy de confiance",
+      "gateway.ips":"Passerelle Ips",
+      "ip.type":"Type Ip",
+      "locations":"Emplacements",
+      "name":"Name",
+      "description":"Description",
+      "type":"Type",
+      "delete.title":"Supprimer la confirmation du réseau",
+      "delete.info":"Voulez-vous vraiment supprimer ce réseau ?"
+    },
+    "templates": "Modèles",
+    "templates.title": "Modèles des notification",
+    "templates.add": "Nouveau Modèles",
+    "templates.no.data.found": ":( Nous n'avons pas trouvé de modèles",
+    "mfa.title": "Gestion MFA",
+    "mfa":"Gestion MFA",
+    "scopes": "Scopes",
+    "scopes.title": "Champs d'application",
+    "scopes.add": "Nouveau Champs d'application",
+    "scopes.no.data.found": ":( Nous n'avons pas trouvé aucun champ d'application",
+    "ldap": {
+      "info": "pages.settings.ldaps.info",
+      "base": "Base",
+      "name": "Usage",
+      "type": "Type",
+      "urls": "Urls",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "mapping":{
+        "group": {
+          "title": "Groupe de mappage",
+          "name": "nom",
+          "member": "membre",
+          "distinguishedName": "distinguishedName",
+          "objectclass": "objectclass"
+        },
+        "user": {
+          "title": "Utilisateur de mappage",
+          "firstName": "Prénom",
+          "lastName": "Nom de famille",
+          "mail": "Mail",
+          "phone": "Téléphone",
+          "userId": "Identifiant d'utilisateur",
+          "country": "Pays",
+          "sAMAccountName": "sAMAccountName",
+          "distinguishedName": "distinguishedName",
+          "groups": "Groupes",
+          "objectclass": "objectclass",
+          "displayname": "displayname",
+          "name": "Nom",
+          "company": "Compagnie"
+        }
+      }
+    },
+    "api-connector": {
+      "generalTitle": "Informations générales",
+      "add.wsDetails": "Nouveaux services Web Détails",
+      "info": "pages.settings.api-connectors.info",
+      "usageApp": "Clé de service",
+      "description": "Description",
+      "label": "Nom de service",
+      "type": "Type",
+      "creationDate": "Date de Création",
+      "lastUpdate": "Dernière mise à jour",
+      "wsDetails": {
+        "title": "Détails du service API",
+        "size": "API(s)",
+        "type": "Type",
+        "code": "Code",
+        "description": "Description",
+        "responseType":"ResponseType",
+        "url": "URL",
+        "params": "params",
+        "data": "Données",
+        "status": "Statut",
+        "responseData": "responseData",
+        "headers": "En-têtes"
+      }
+    },
+    "template": {
+      "info": "La gestion des modèles vous permet de personnaliser le comportement des processus de modèle. Un modèle vous permet également de gérer de nouveaux attributs.",
+      "key": "Clé",
+      "name": "Nom",
+      "type": "Type",
+      "tplContent": "Contenu",
+      "upload": "Charger",
+      "subject": "Sujet",
+      "lastUpdate": "Dernière mise à jour",
+      "creationDate": "Date de création",
+      "general.title": "Informations générales",
+      "users.title": "Utilisateurs",
+      "groups.title": "Groupes",
+      "add.image": "Nouvelle image",
+      "image.id": "Id",
+      "image.key": "Clé",
+      "image.name": "Nom",
+      "image.type": "Type",
+      "image.action":"Action"
+    },
+    "scope": {
+      "key": "Clé",
+      "name": "Nom",
+      "customerId": "ID Client",
+      "claimsLength": " Longueur Claims",
+      "claims": "Claims",
+      "action": "Action",
+      "lastUpdate": "Dernière mise à jour",
+      "creationDate": "Date de création"
+    },
+
+    "tokens": "Jetons",
+    "tokens.title": "Jetons",
+    "tokens.info": "Activez le service de jeton de sécurité. Contrôlez les mécanismes d'authentification que le service de jeton de sécurité accepte pour les services Web ",
+    "token": {
+      "access.token.duration": "Durée du jeton d'accès",
+      "refresh.token.duration": "Actualiser la durée du jeton",
+      "id.token.duration": "Durée du jeton d'identification",
+      "app.token.duration": "Durée du jeton d'application",
+
+      "tokens.tokens.info":"Informations sur le jeton",
+      "tokens.access.token":"Jeton d'accès",
+      "tokens.access.token.info":"Les jetons d'accès sont utilisés dans l'authentification basée sur les jetons pour permettre à une application d'accéder à une API. L'application reçoit un jeton d'accès une fois qu'un utilisateur s'est authentifié et autorise l'accès avec succès, puis transmet le jeton d'accès en tant qu'informations d'identification lorsqu'il appelle l'API cible. Le jeton transmis informe l'API que le porteur du jeton a été autorisé à accéder à l'API et à effectuer des actions spécifiques spécifiées par le champ d'application qui a été accordé lors de l'autorisation",
+      "tokens.id.token":"Id jeton",
+      "tokens.id.token.info":"Les jetons d'identification sont utilisés dans l'authentification basée sur les jetons pour mettre en cache les informations de profil utilisateur et les fournis à une application cliente, offrant ainsi de meilleures performances et une meilleure expérience. L'application reçoit un jeton d'identification après qu'un utilisateur s'est authentifié avec succès, puis consomme le jeton d'identification et en extrait les informations de l'utilisateur, qu'elle peut ensuite utiliser pour personnaliser l'expérience de l'utilisateur",
+
+      "tokens.refresh.token":"Actualiser le jeton",
+      "tokens.refresh.token.info":"Un jeton d'actualisation est un type spécial de jeton utilisé pour obtenir un jeton d'accès renouvelé. Vous pouvez demander de nouveaux jetons d'accès jusqu'à ce que le jeton d'actualisation soit sur la DenyList. Les applications doivent stocker les jetons d'actualisation en toute sécurité car ils permettent essentiellement à un utilisateur de rester authentifié pour toujours",
+
+      "tokens.app.token":"Jeton d'application",
+      "tokens.app.token.info":"Les jetons d'application vous permettent d'interagir avec une seule application à un niveau de champ d'application que vous définissez. À l'aide d'un jeton d'application, les utilisateurs peuvent créer, lire, mettre à jour ou supprimer n'importe quelle ressource de l'application",
+
+      "select.duration.type": "sélectionner le type de durée"
+    }
+  },
+  "pages": {
+    
+    "application": {
+      "info.show": "Une application ressource définit le lien entre la plateforme GAïA Trust et les applications réelles qui utiliseront les services disponibles (service de gestion des identités ou services de confiance). Chaque service disponible ne peut être consommé que lorsqu'il est déployé dans une application. L'utilisation du service déployé est sécurisée pour ladite application afin que seule cette application puisse l'utiliser",
+
+      "info.update": "Une application ressource définit le lien entre la plateforme GAïA Trust et les applications réelles qui utiliseront les services disponibles (service de gestion des identités ou services de confiance). Chaque service disponible ne peut être consommé que lorsqu'il est déployé dans une application. L'utilisation du service déployé est sécurisée pour ladite application afin que seule cette application puisse l'utiliser",
+
+      "title": "Applications",
+      "add": "Ajouter une application",
+      "general.title": "Informations générales",
+      "general.info": "Informations générales sur l'application",
+      "admins.title": "Administrateurs",
+      "group.admins.title": "Groupe Administrateur",
+      "openid.title": "OpenId",
+      "saml.title": "SAML",
+      "tokens.title": "API sécurisées",
+      "workflows.title": "Consumer Journey",
+      "radius.title": "Radius",
+      "scim.title": "SCIM",
+      "api.title":  "API",
+      "workflow.add":"Ajouter un flux workflow",
+      "admins.add": "Nouvel administrateur",
+      "group.admins.add": "Nouveau groupe",
+      "generate.token":"Générer un jeton",
+      "tokens.copy":"Copier le jeton",
+      "tokens.token":"JETON",
+      "status": "Statut",
+      "secure.api.info":"Informations sur le jeton",
+      "tokens.info":"Informations sur le jeton",
+      "tokens.no.data.found":"aucun jeton trouvé",
+      "workflows.info":"Liste des Parcours Consommateur liés à l'application",
+      "accessPolicy.info":"Liste des politiques d'accès liées à l'application",
+      "risk.policy.info":"Liste des politiques de risques liées à l'application",
+      "authorizations.no.data.found":":( Nous n'avons trouvé aucune autorisation ..",
+      "workflows.no.data.found":":( Nous n'avons trouvé aucun workflow ..",
+      "access-policy.no.data.found":":( Nous n'avons trouvé aucun filtre de politique d'accès ..",
+      "risk.policy.no.data.found":":( Nous n'avons trouvé aucun risque lié à la politique d'accès .."
+
+    },
+    "menu": {
+      "dashboard": "Tableau de bord",
+      "administration": "Administration",
+      "reporting": "Rapports",
+      "application": "Applications",
+      "identities": "Identités",
+      "access": "Accés",
+      "eSignature": "signature électronique",
+      "settings": "Réglages",
+      "governance": "Governance",
+      "orchestration": "Orchestration",
+
+      "eid.identities":"Identités",
+      "eid.devices":"Dispositifs",
+      "eid.population":"Population",
+      "eid.role":"Rôle",
+      "eid.roles":"Rôles",
+      "eid.import":"Importer des identités",
+      "eid.synchronization":"Synchronisation"
+
+
+    },
+    "login": {
+      "title": "Connectez-vous à votre compte",
+      "login": "identifiant de connexion",
+      "password": "mot de passe"
+    },
+
+    "policy": {
+      "attribute.add":"Nouvel attribut",
+      "profile.add": "Nouveau profile",
+
+      "title": "La politique d'identité est un ensemble de modifications commerciales qui se produisent lorsqu'un utilisateur remplit une certaine condition ou règle."
+    },
+    "signatures":{
+      "proof-doc":"Signature",
+      "profils":"Profils",
+      "archive":"Archive"
+    },
+
+    "identities": {
+      "info.update": "eID Client vous permet de visualiser les identités et les différents éléments qui la caractérisent conformément aux schémas d'identification liés aux personnes physiques.",
+      "info.create": "eID Customer vous permet de visualiser les identités et les différents éléments la caractérisant conformément aux schémas d'identification liés aux personnes physiques.",
+      "info.show": "eID Customer vous permet de visualiser les identités et les différents éléments la caractérisant conformément aux schémas d'identification liés aux personnes physiques.",
+      "login": "Identifiant ",
+      "password": "Mot de passe",
+      "no.data.found": ":( Nous n'avons trouvé aucun utilisateur",
+
+      "roles": {
+        "info": "Un rôle permet de définir les droits et privilèges d'une Identité.",
+        "info.show": "Un rôle permet de définir les droits et privilèges d'une Identité.",
+        "info.update": "Un rôle vous permet de définir les droits et privilèges qu'une Identité.",
+        "info.create": "Un rôle permet de définir les droits et privilèges d'une Identité.",
+        "title": "Rôles",
+        "add.role": "Nouveau Rôle",
+
+        "role.key": "Clé",
+        "role.name": "Nom",
+        "role.description": "Description",
+        "role.creationDate": "Date de création",
+        "role.updatedDate": "Dernière mise à jour",
+        "role.authz.name": "Nom",
+        "role.authz.description": "Description",
+        "role.authz.appId": "AppId",
+        "role.authz.affect": "Affecter l'autorisation",
+
+
+        "general.title":"informations générales",
+        "authz.title": "Autorisations",
+
+        "no.data.found" : ":( Nous n'avons trouvé aucun rôle ..",
+        "authz.no.data.found" : ":( Nous n'avons trouvé aucune autorisation .."
+      },
+      "import":{
+        "title":"Importer des identités",
+        "file":"Fichier",
+        "userKey":"Clé utilisateur",
+        "no.data.found":":( Nous n'avons trouvé aucune identité à importé"
+      },
+
+      "identity": {
+
+        "add.identity": "Nouvelle identité",
+        "name": "Identité",
+        "overview.title": "Vue d'ensemble",
+        "devices.title": "Dispositifs",
+        "relationship.title": "Relation",
+        "general.title": "Informations générales",
+        "auth.title": "Authentification",
+        "entities.title": "Entités",
+        "entities.info": "Liste des entités ",
+        "applications.title": "Applications",
+        "application.add": "Ajouter une application",
+        "applications.info": "Liste des applications utilisées par l'utilisateur ",
+        "application.delete": "Supprimer",
+        "sessions.title": "Sessions",
+        "identity-groups.title": "Groupes d'identité",
+
+        "detail.title": "Détails",
+        "roles.title": "Rôles",
+        "roles.add": "Nouveau Rôle",
+        "roles.info": "Informations sur le rôle  ",
+
+        "proof.title": "Éléments de preuve",
+        "proof.info": "Liste des éléments de preuve liés à l'identité courante ainsi que les statuts associés.",
+
+        "identityVerification.title":"Vérification d'identité",
+
+        "preference.title": "Préférence",
+        "preference.info": "Préférence ",
+
+        "personal.title": "Personnel",
+        "personal.info": "Liste des éléments d'identifications ",
+
+        "contact.title": "Contact",
+        "contact.info": "Contact Personnel ",
+
+        "companyInformation.title": "Informations sur la société",
+        "companyInformation.info": "Informations sur la société ",
+
+        "custom.title": "Custom",
+        "custom.info": "Custom Informations ",
+
+        "auth.info": "Informations d'authentification .",
+        "devices.info": "Information sur le dispositif .",
+        "action.unlock": "Débloquer",
+        "action.enable": "Activer",
+        "action.disable": "Désactiver",
+        "action.suspend": "Suspendre",
+        "action.delete": "Supprimer",
+        "action.update": "Modifier",
+        "action.update.identity": "Mettre à jour l'identité",
+        "action.save.identity": "Enregistrer l'identité"
+
+      }
+    },
+    "devices": {
+      "phones.no.data.found": ":( Nous n'avons trouvé aucun appareil ",
+      "phones": "Télephones",
+      "tokens": "Jetons matériels",
+      "endpoint": "Terminaux",
+      "providers": "Fournisseurs",
+      "gaia.pass": "GAIApass",
+      "state": "Etat",
+      "warning": "Avertissement de sécurité",
+
+      "enrolled": "Enregistré",
+      "not.enrolled": "Non enregistré",
+      "identities":"Identités",
+      "alias": "Alias",
+      "device": "Dispositif",
+      "model": "Modèle",
+      "platform": "Platforme",
+      "actions": "Actions",
+      "phone.delete": "Supprimer Téléphone",
+      "phone.cancel": "Cancel",
+      "phone.update": "Mettre à jour le téléphone",
+      "creationDate":"Date de Création"
+    },
+    "policies": {
+      "overview.title": "Vue d'ensemble",
+      "overview.desc" : "La politique d'identité est un ensemble de modifications commerciales qui se produisent lorsqu'un utilisateur remplit une certaine condition ou règle.",
+
+      "profile.title": "Profiles des identités",
+      "profile.desc" : "Un profil d'identité est mappé à la configuration d'identité dans un système tiers utilisé pour gérer le compte d'utilisateur. Remarques : Les profils d'identité peuvent être définis uniquement pour les types de système d'identité de protocole d'authentification. Si plusieurs services doivent partager la même identité, ils peuvent se référer au même profil d'identité.",
+
+      "datamodel.title": "Modèle de données par défaut",
+      "datamodel.desc" : "Le modèle de données d'identité par défaut est la collecte de données sur une personne individuelle, telles que son nom, son adresse, son numéro de compte bancaire, ses dossiers médicaux et d'autres informations hautement sensibles.",
+
+      "ial.title": "Niveau d'assurance d'identité",
+      "ial.desc" : "Concevoir les exigences pour établir un niveau d'assurance d'identité conformément à la politique d'identité",
+
+      "aal.title": "Niveau d'assurance d'authentification",
+      "aal.desc" : "Concevoir les exigences pour établir un niveau d'assurance d'authentification conformément à la politique d'identité",
+
+      "fal.title": "Niveau d'assurance de la fédération",
+      "fal.desc" : "Concevoir les exigences pour établir un niveau d'assurance de fédération conformément à la politique d'identité",
+
+
+      "no.data.found": ":( Nous n'avons trouvé aucune politique",
+      "policy.name": "Politique",
+      "add.policy": "Nouvelle politique",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "published": "Publié",
+      "in-progress": "En cours",
+      "all":"Tout",
+      "status": "Statut",
+      "key": "Nom",
+      "label": "Label",
+      "description": "Description",
+      "version": "Version",
+      "category": "Categorie",
+      "creationDate": "Date création",
+      "pages": {
+        "data.model": "Modèle de données par défaut",
+        "identity.profile": "Profils d'identité"
+      },
+      "profile.detailAttributes": "Informations générales sur le profil",
+      "profile.generalInformation": "Profil des attributs de détail",
+      "btn":{
+        "delete":"Supprimer",
+        "profile.delete":"Supprimer",
+        "add.attribute":"Ajouter un attribut"
+      }
+    },
+    "populations": {
+      "population.name": "Populations",
+      "add.population": "Nouvelle population",
+      "no.data.found": ":( Nous n'avons trouvé aucune population",
+      "key": "Nom",
+      "label": "Label",
+      "name": "Nom",
+      "login": "Identifiant",
+      "id":"Id.  Usage ",
+      "equation": "Equation",
+      "description": "Description",
+      "filterKey": "Clé de filtre",
+      "page.filter": "filtre",
+      "filter.excludes": "Exclut",
+      "filter.includes": "Inclus",
+      "rule.description":"Description",
+      "rule.type":"Type",
+      "rule.operation":"Operation",
+      "rule.name":"Nom",
+      "rule.value":"Valeur"
+    },
+    "administration": {
+
+      "admins": {
+        "info": " Toutes les actions possibles via la console d'administration sont subordonnées à la possession d'un compte Administrateur de la plateforme d'administration. Il est important de séparer la notion d'administrateur de la plateforme et la notion d'identité électronique gérée par la plateforme. Depuis la liste des administrateurs, vous pouvez visualiser et gérer (créer, modifier, supprimer, bloquer/débloquer, ajouter des rôles, ajouter des groupes d'utilisateurs) tous les administrateurs liés à votre organisation, qui auront des droits d'utilisation du portail d'administration et le portail libre-service ..",
+        "info.update": "Un Administrateur est une identité permettant de gérer les droits d'accès au portail d'administration et au portail libre-service. Il est important de séparer la notion d'administrateur de la plateforme et la notion d'identité électronique gérée par la plateforme. Vous pouvez modifier les informations et les droits d'un Administrateur en modifiant ses données personnelles, ses rôles et les groupes d'Administrateurs auxquels il appartient",
+        "info.create": "Un Administrateur est une identité qui vous permet de gérer et d'accéder aux fonctions de la plateforme d'administration. Et selon les appartenances aux groupes d'administrateurs, ils peuvent également effectuer des tâches au niveau du self-service. Il est important de séparer la notion d'administrateur de la plateforme et la notion d'identité électronique gérée par la plateforme. Créez un administrateur puis affectez-le au groupe d'administrateurs de votre choix. Vous pouvez également lui associer directement un rôle spécifique",
+        "info.show": "Un Administrateur est une identité qui vous permet de gérer et d'accéder aux fonctions de la plateforme d'administration. Et selon les appartenances aux groupes d'administrateurs, ils peuvent également effectuer des tâches au niveau du self-service. Il est important de séparer la notion d'administrateur de la plateforme et la notion d'identité électronique gérée par la plateforme. Vous pouvez visualiser les informations et les droits d'un Administrateur : ses données personnelles, ses rôles et les groupes d'Administrateurs auxquels il appartient ",
+
+        "add.admin": "Nouvel administrateur",
+        "generalTitle": "Informations générales",
+        "sessions": {
+          "title": "Sessions actives",
+          "info": "Liste des sessions actives",
+          "no.data.found":":( We did not find any Active sessions .."
+        },
+        "mail": "Mail",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "phone_number": "Numéro Téléphone",
+        "role": "Rôle",
+        "status": "Statut",
+        "last_login": "Dernière connexion",
+        "action":"Action",
+        "no.data.found": ":( Nous n'avons trouvé aucun Administrateur .."
+      },
+      "environments": {
+        "info": "info",
+        "info.update": "Le détail d'une sous-organisation permet de visualiser les informations de l'organisation, les sous-organisations et Business Division associées et les administrateurs déclarés dans cette sous-organisation",
+        "info.create": "info",
+        "info.show": "Le détail d'une sous-organisation permet de visualiser les informations de l'organisation, les sous-organisations et Business Division associées et les administrateurs déclarés dans cette sous-organisation",
+        "add.environment": "Nouvelle entité",
+        "generalTitle": "Informations générales",
+        "applications": "Applications liées",
+        "identities": "Identités associées",
+        "sub_entities": "Sous-organisations / Business Divisions",
+        "admins": "Admins",
+        "admins.title": "Administrateurs",
+        "admins.info": "Liste des administrateurs rattachés à l'environnement en cours ",
+        "admins.add": "Ajouter un administrateur",
+
+        "applications.title": "Applications",
+        "applications.info": "Liste des applications associées à l'environnement courant. La liste des applications affiche l'état actuel de chaque application (activée ou désactivée) ",
+        "applications.add": "Ajouter une application",
+        "no.data.found": ":( Nous n'avons trouvé aucune entité ..",
+
+        "eid.title": "Identités jointes ",
+        "eid.info": "Liste des clients rattachés à l'environnement actuel"
+      },
+      "roles": {
+        "info": "Un rôle vous permet de définir les droits et privilèges dont dispose un administrateur. Selon son rôle, l'administrateur peut lire, modifier ou supprimer les ressources du portail d'administration. La plateforme intègre une parfaite ségrégation des droits, vous pouvez donc personnaliser les rôles en fonction des autorisations que vous souhaitez.",
+        "info.show": "Un rôle vous permet de définir les droits et privilèges dont dispose un administrateur. Selon son rôle, l'administrateur peut lire, modifier ou supprimer les ressources du portail d'administration. La plateforme intègre une parfaite ségrégation des droits, vous pouvez donc personnaliser les rôles en fonction des autorisations que vous souhaitez.",
+        "info.update": "Un rôle vous permet de définir les droits et privilèges dont dispose un administrateur. Selon son rôle, l'administrateur peut lire, modifier ou supprimer les ressources du portail d'administration. La plateforme intègre une parfaite ségrégation des droits, vous pouvez donc personnaliser les rôles en fonction des autorisations que vous souhaitez.",
+        "info.create": "Un rôle vous permet de définir les droits et privilèges dont dispose un administrateur. Selon son rôle, l'administrateur peut lire, modifier ou supprimer les ressources du portail d'administration. La plateforme intègre une parfaite ségrégation des droits, vous pouvez donc personnaliser les rôles en fonction des autorisations que vous souhaitez..",
+
+        "title": "Rôles",
+        "add.role": "Nouveau Rôle",
+
+        "role.id": "Id",
+        "role.label": "Label",
+        "role.type": "Type",
+
+        "general.title":"Information Générale",
+        "permissions.title": "Permissions",
+        "admins.title": "Utilisateurs"
+      },
+      "groups": {
+        "info": "Les Groupes Administrateurs permettent de regrouper des administrateurs afin de pouvoir leur affecter des tâches spécifiques au niveau des Workflows définis lors de l'utilisation du self-service. Vous pouvez ainsi créer, modifier, ajouter des groupes d'administrateurs selon votre stratégie de déploiement",
+        "info.update": "Les Groupes Administrateurs permettent de regrouper des administrateurs afin de pouvoir leur affecter des tâches spécifiques au niveau des Workflows définis lors de l'utilisation du self-service. Vous pouvez ainsi créer, modifier, ajouter des groupes d'administrateurs selon votre stratégie de déploiement",
+        "info.create": "Les Groupes Administrateurs permettent de regrouper des administrateurs afin de pouvoir leur affecter des tâches spécifiques au niveau des Workflows définis lors de l'utilisation du self-service. Vous pouvez ainsi créer, modifier, ajouter des groupes d'administrateurs selon votre stratégie de déploiement",
+        "info.show": "Les Groupes Administrateurs permettent de regrouper des administrateurs afin de pouvoir leur affecter des tâches spécifiques au niveau des Workflows définis lors de l'utilisation du self-service. Vous pouvez ainsi créer, modifier, ajouter des groupes d'administrateurs selon votre stratégie de déploiement",
+
+        "add.group": "Nouveau groupe",
+        "group.id": "id",
+        "group.label": "label",
+        "general.title":"information générale",
+        "users.title": "Utilisateurs",
+        "no.data.found":":( Nous n'avons trouvé aucun groupe d'administrateurs.."
+
+      },
+      "detailsAdmin": {
+        "generalInfo": "informations générales",
+        "activeSession": "Sessions actives"
+      },
+      "session": {
+        "token.appId": "ID App",
+        "token.subject": "Sujet",
+        "token.amr": "AMR",
+        "token.scopes": "champ d'application",
+        "token.authTime": "Temps de connexion",
+        "token.tokenExpiresIn": "Le jeton expire dans",
+        "token.action": "Action"
+      },
+      "admin-activities": {
+        "audit.user": "Utilisateur",
+        "audit.action": "Action",
+        "audit.method": "Méthode",
+        "audit.os": "SE",
+        "audit.browser": "Navigateur",
+        "audit.ip": "IP",
+        "audit.date": "Date",
+        "no.data.found":":( Nous n'avons trouvé aucune activité"
+      }
+    },
+    "access": {
+      "password.name": "Mot de passe",
+      "oath.name": "Oath",
+      "push.name": "Push",
+      "oob.name": "Oob",
+      "fido.name": "Fido",
+      "hardware.name": "Hardware",
+      "fido-management": "Gestion FIDO",
+      "password-management": "Gestion mot de passe ",
+      "oath-management": "Gestion Software OTP",
+      "push-management": "Gestion Push ",
+      "hardware-management": "Gestion Token physique",
+      "oob-management": "Gestion SMS OTP "
+    },
+    "export": {
+      "label": "Export",
+      "exportFormat": "Exporter en tant que",
+      "csvFormat": "Format CSV ",
+      "jsonFormat": "Format Json "
+    },
+    "showData": {
+      "show": "Afficher",
+      "showData": "Afficher les données comme",
+      "board": "Tableau",
+      "grid": "Grille"
+    },
+    "user": {
+      "id": "ID",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone": "Téléphone",
+      "roles": "Rôles",
+      "lastLogin": "Dernière connexion",
+      "useDirectoryPwd": "Utiliser le mot de passe Active Directory",
+      "log": "Logs",
+      "pwd.regenerate": "Régénérer le mot de passe",
+      "link.ad": "Lien AD",
+      "locked": "vérouillé",
+      "unlocked": "Active",
+      "all": "All",
+      "timeLocked": "verrouillé temporairement",
+      "suspended": "Suspendu",
+      "groups": "Groupes"
+    },
+    "tables": {
+      "id": "ID",
+      "mail": "Mail",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone_number": "Numéro de téléphone",
+      "role": "Rôle",
+      "status": "Statut",
+      "Lastlogin": "Dernière connexion",
+      "creationDate": "Date de création",
+      "label": "Label"
+    },
+    "loading": "S'il vous plaît, attendez",
+
+    "attribute": {
+
+      "add": "Ajouter attribut",
+
+      "searchable": "Consultable",
+      "category": "Categorie",
+      "description": "Description",
+      "key": "Clé",
+      "code": "Code",
+      "type": "Type",
+      "context": "Contexte",
+      "action": "Action",
+      "format": "Format",
+      "custom": "Attribut personnalisé",
+      "gaia": "Attribut GAïA",
+      "mail": "Mail",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone_number": "Numéro téléphone",
+      "policyKey": "Politique",
+      "policyLevel": "Niveau de confiance",
+      "family_name":"Nom de famille",
+      "middle_name":"Deuxième nom",
+      "given_name":"Prénom",
+      "email":"Email",
+      "name":"Nom",
+      "username":"Nom d'utilisateur",
+      "no.data.found":":( Nous n'avons trouvé aucun attribut .."
+    },
+    "rules": {
+      "key": "Clé",
+      "name": "Nom",
+      "description": "Description",
+      "type": "Type",
+      "operation": "Opération",
+      "value": "Valeur"
+    },
+    "orchestration": {
+      "info.show": "Une orchestration des ressources définit le",
+      "info.update": "Une orchestration des ressources ",
+      "general.info": "Une orchestration des ressources ",
+      "activity.title":"La modélisation",
+      "title": "Orchestration",
+      "add": "Ajouter une orchestration",
+      "web.service.title":"Web Service",
+      "add.web.service":"Ajouter un service Web",
+      "general.title": "Informations générales",
+      "admins.title": "Administrateurs",
+      "group.admins.title": "Administrateurs de groupe",
+      "admins.add": "Nouvel administrateur",
+      "group.admins.add": "Nouveau groupe",
+      "START.event": "Démarrer",
+      "END.event": "Succès",
+      "AND.event": "ET",
+      "OR.event": "OU",
+      "Comment.event": "Commentaire",
+      "userTask.event": "Tâche client",
+      "services.default": "Services GAïA",
+      "services.custom": "Services personnalisés",
+      "service.default": "GAïA Service",
+      "service.custom": "Services personnalisés",
+      "api-services": "Connecteurs",
+      "categories": "Categories",
+      "workflows": "Consumer Journey",
+      "workflows-bpmn": "Workflows BPMN",
+      "workflows-activities": "Consumer Journey",
+      "modeles": "Modèles",
+      "model.no.data.found": ":( Nous n'avons trouvé aucun modèle de parcours client",
+      "jobs": "Tâches",
+      "job.no.data.found": ":( Nous n'avons trouvé aucune tâche",
+      "forms":"Formulaires",
+      "form.no.data.found":":( Nous n'avons trouvé aucun formulaire",
+      "no.data.found":":(Nous n'avons trouvé aucun parcours client"
+    },"workflows-bpmn": {
+      "modeles": {
+        "title": "Modèles",
+        "name": "Nom",
+        "add.title": "Ajouter un modél",
+        "create.title": "Créer un nouveau modél"
+      },
+      "jobs": {
+        "title": "Tâches",
+        "instanceId": "Tansaction ID",
+        "jobId": "Job ID",
+        "message": "Méssage",
+        "dueDate": "Date de Creation",
+        "name": "Nom",
+        "action": "Action"
+      },
+      "forms":{
+        "title": "Formulaire",
+        "add.title": "Ajouter un formulaire"
+      }
+    },
+    "saml":{
+      "creationDate":"Date de Création",
+      "clientId":"ID client",
+      "clientType":"Type",
+      "appName":"Nom App",
+      "appDescription":"Description de l'application",
+      "action":"Action",
+      "ssoUrl":"URL d'authentification unique",
+      "entityId":"ID Entité",
+      "signingAlgorithm":"Algorithme de signature",
+      "assertionSignature":"Signature Assertion ",
+      "responceSignature":"Responce Signature",
+      "nameIDFormat":"Format d'identification du nom",
+      "wantAuthnRequestsSigned":"Demandes d'authentification signées",
+      "defaultRelayState":"État du relais par défaut",
+      "authentication":"Authentification",
+      "forceAuthentication":"Forcer l'authentification",
+      "force2FAAuthentication":"Forcer l'authentification 2FA",
+      "mappings":"mappage",
+      "attribute":"Attribut",
+      "template.title":"Sélectionnez un modèle",
+      "template.choose":"Sélectionnez le modèle sur lequel la configuration et la politique de votre application seront basées.",
+      "template.public.title":"Application publique",
+      "template.public.description":"Cette application doit être accessible en interne et en externe, et la connexion n'est pas requise. L'authentification multifacteur ne sera pas requise.",
+      "template.internal.title":"Application Interne",
+      "template.internal.description":"Cette application doit être accessible uniquement aux employés internes et aux paterners. Ils devront se connecter via SSO, nécessitant éventuellement MFA."
+    }
+  },
+  "reporting": {
+    "title": "Rapports",
+    "workflows.title": "Consumer Journey",
+    "identity.title": "Cycle de vie de l'identité",
+    "access.title": "Cycle de vie de l'accè",
+    "connectors.title": "Connecteurs",
+    "external.title": "Systèmes externes",
+    "access-methods.title": "Cycle de vie de l'authentification",
+    "signature.title":"Cycle de vie de la signature",
+    "service.counter.average.title":"Statistiques des services",
+    "service.counter.error.info":"Visualisation de l'évolution du nombre de transactions",
+    "service.average.success.info":"Affichage de la durée AVG des transactions",
+    "application.graph.title":"Statistiques des applications",
+    "application.graph.info":"Vue des statistiques des applications sur une période spécifique",
+    "activities":{
+      "top.title":"Top entité, application et processus",
+      "top.info":"Vue de l'entité supérieure, de l'application et du processus",
+      "top.entities.info":"Top Entités",
+      "top.applications.info":"Top Applications",
+      "top.process.info":"Top Processus",
+      "process.task.info":"Top Tâches en cours",
+      "task.title":"Top Tâches",
+      "task.info":"Vue des Top Tâches en cours",
+      "status.info":"Vue de l'état global du processus",
+      "status.period.info":"Visualisation de l'état global du processus par période",
+      "process.info":"Vue du processus démarré",
+      "process.period.info":"Vue du processus démarré dans une période spécifique",
+      "global.startEvent":"Processus démarré",
+      "in-progress":"En cours",
+      "success":"Succès",
+      "rejected":"Rejeté",
+      "expired":"Expiré"
+    },
+    "hsm":{
+      "count.transactions":"Nombre de requêtes HSM",
+      "avg.duree.transactions":"Durée AVG des requêtes HSM"
+    },
+    "signature":{
+      "applications.info":"Visualisation des statistiques de signature par application",
+      "process.info":"Visualisation des statistiques de signature par processus",
+      "request.status.info":"Visualisation de la demande de signature par statut",
+      "request.time.info":"Visualisation des statistiques des requêtes",
+      "request.app.info":"Visualisation de l'état des requêtes par application",
+      "request.process.info":"Visualisation de l'état des requêtes par processus"
+    }
+   
+  },
+  "audit":{
+    "timestamp": "Timestamp",
+    "endDate": "Date de fin",
+    "duration": "Durée",
+    "transaction": "Transaction",
+    "state": "État",
+    "context": "Contexte",
+    "type": "Type",
+    "process": "Processus",
+    "message": "Message",
+    "expirationDate":"Date d'expiration",
+    "true": "Succès",
+    "false": "Erreur",
+    "taskName":"Nom de la tâche",
+    "identity":"Identité",
+    "userId":"Identifiant d'utilisateur",
+    "username":"Nom d'utilisateur",
+    "usageId":"ID d'utilisation",
+    "model":"Model",
+    "ip":"Adresse IP",
+    "task":"Tâche en cours",
+    "no.data.found":":( Nous n'avons trouvé aucune trace ..",
+    "status":{
+      "name":"Status",
+      "all":"Tout",
+      "expired":"Expiré",
+      "in-progress":"En cours",
+      "rejected":"Rejeté",
+      "success":"Succès",
+      "error":"Erreur"
+    }
+  },
+  "error":{
+    "expirationDate.past":"La date d'expiration n'est pas valide",
+    "updateActivity":"Mettre à jour le Consumer Journey",
+    "createActivity":"Ajouter un Consumer Journey",
+    "login":"Utilisateur de connexion",
+    "createFilter":"Créer un filtre",
+    "updateFilter":"Mettre à jour le filtre",
+    "deleteRoleById":"Supprimer le rôle",
+    "deleteTokenById":"Supprimer le jeton",
+    "generateTokenApplication":"Générer un nouveau jeton pour l'application",
+    "deletePolicy":"Supprimer la politique",
+    "addPolicy":"Ajouter une nouvelle politique",
+    "affectFilter":"Affecter le filtre à la population",
+    "updateConfRpBy":"Mettre à jour Conf RpBy",
+    "addRole":"Ajouter un nouveau rôle",
+    "updateUserGroup":"Mettre à jour le groupe d'utilisateurs",
+    "addUserGroup":"Ajouter un nouveau groupe d'utilisateurs",
+    "updateUser":"Mettre à jour l'identité",
+    "updateApplication":"Mettre à jour l'application",
+    "updateEntity":"Mettre à jour l'entité",
+    "deleteSamlConfigById":"Supprimer la configuration SAML",
+    "deleteApplication":"Supprimer l'application",
+    "ddSamlConfig":"Ajouter une nouvelle configuration SAML",
+    "deleteFilter":"Supprimer le filtre",
+    "updatePolicy":"Mettre à jour la politique",
+    "deleteEntity":"Supprimer l'entité",
+    "deleteUser":"Supprimer l'identité",
+    "addUser":"Ajouter une nouvelle identité",
+    "addConfOpenId":"Ajouter une nouvelle configuration OpenId",
+    "deleteNotification":"Supprimer la notification",
+    "addScope":"Ajouter une nouvelle champ d'application",
+    "deleteProvider":"Supprimer le fournisseur",
+    "addProvider":"Ajouter un fournisseur",
+    "addUserGroupToAPermisstion":"Ajouter un groupe d'utilisateurs à une autorisation",
+    "deletePermissionUsers":"Supprimer les utilisateurs autorisés",
+    "addUserToAPermisstion":"Ajouter un utilisateur à une autorisation",
+    "deleteEndPoint":"Supprimer le terminal",
+    "updateActive":"Modifier le statut d'administrateur",
+    "updateEntityActive":"Modifier le statut de l'entité",
+    "addEntity":"Ajouter une entité",
+    "deleteGroupUser":"Supprimer l'utilisateur du groupe",
+    "desaffectAuthzFromApp":"Désaffecter l'autorisation de l'application",
+    "affectAuthzToApp":"Affecter l'autorisation à l'application",
+    "affectAppliationToFilter":"affecter l'application au filtre",
+    "deletePermissionUserGroup":"Supprimer le groupe d'utilisateurs d'autorisation",
+    "addApplication":"Ajouter une application",
+    "updateRuleByType":"Mettre à jour la règle par type",
+    "desaffectAppliationToFilter":"Désaffecter l'application à filtrer",
+    "desaffectFilter":"Désaffecter le filtre",
+    "addIdentityGroups":"Ajouter des groupes d'identité",
+    "deleteIdentityGroups":"Supprimer des groupes d'identité",
+    "updateIdentityGroups":"Mettre à jour les groupes d'identité",
+    "deleteConfById":"Supprimer Conf par ID",
+    "addRule":"Ajouter une règle",
+    "deleteRuleById":"Supprimer la règle par ID",
+    "updateApplicationActive":"Changer le statut de l'application",
+    "updateOpenIdConf":"Mettre à jour OpenId",
+    "checkIdentity":"Vérifier l'identité",
+    "updateStatus":"état de mise à jour",
+    "deleteWsDetailsByIdAndCode":"supprimer WsDetails par identifiant et code",
+    "deleteScopeyId":"Supprimer le champ d'application par ID",
+    "affectMean":"Affecter la méthode",
+    "addSamlConfig":"Ajouter une nouvelle configuration SAML",
+    "regenerateMean":"Méthode de régénération",
+    "desaffectMean":"Méthode désaffectée",
+    "updatePolicie":"Mettre à jour la politique de risque",
+    "ENTITY_APPLICATION_EXIST":"Cette entité est utilisée par une application existante",
+    "loginAdmin":"Login",
+    "testSendMail":"Test envoie de mail",
+    "updateTemplate":"Mettre à jour notification",
+    "addTemplate":"Ajouter un model de notification",
+    "addAppIdInActivity":"Affecter un workflow",
+    "deleteAppIdFromActivity":"Désaffecter un workflow",
+    "deleteProfile":"Suppression de Profile",
+    "addProfile":"Ajouter un Profile"
+  },
+  "creationDate": "Date de création",
+  "updatedDate":"Dernière mise à jour",
+
+  "authentication-service": "Service d'authentification",
+  "notification-service": "Service de notification",
+  "kyc-service": "Service KYC",
+  "identity-service": "Service d'identité",
+  "api-signature-service": "Service Signature",
+
+  "provider.description": "Description",
+  "provider.code": "Code",
+
+  "hardware.creationDate": "Date de création",
+  "hardware.expiryDate": "Date d'expiration",
+  "hardware.serial.number": "Numéro de série",
+  "hardware.manufacturer": "Fabricant",
+  "hardware.provider": "Fournisseur",
+  "hardware.type": "Type",
+  "hardware.otpLenght": "Long.OTP",
+
+  "hardware.model": "Modèle",
+  "hardware.identities": "Identités",
+  "hardware.entities": "Entités",
+  "hardware.state": "État",
+  "hardware.affected": "affecté",
+  "hardware.unaffected": "désaffacté",
+
+  "delete.application.confirm.body": "Vous êtes sur le point de supprimer une Application. Voulez-vous confirmer?",
+  "delete.application.confirm.title": "Supprimer la confirmation de l'application",
+  "delete.group.confirm.body": "Vous êtes sur le point de supprimer un groupe. Voulez-vous confirmer ?",
+  "delete.group.confirm.title":"Supprimer la confirmation de groupe",
+  "delete.role.confirm.body": "Vous êtes sur le point de supprimer un rôle. Voulez-vous confirmer ?",
+  "delete.role.confirm.title": "Delete Role Confirmation",
+  "picture": "Image",
+  "authentication.method.management": "Gestion",
+  "authentication.method.audit": "Audit",
+  
+ 
+  "disable": "Désactivé",
+  "enable": "Activé",
+  "create": "Créer",
+  "update": "Mettre à jour",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "true": "Vrai",
+  "false": "Faux",
+  "edit": "Èditer",
+  "delete": "Supprimer",
+  "attributes": "Attributs",
+ 
+
+
+
+
+  "document-service.label": "Auditer l'identité des personnes",
+  "document-service.description": "Audit du cycle de vie des opérations de gestion de l'identité électronique de la personne physique..",
+
+  "certificate-service.label": "Audit de la gestion des Certificats ",
+  "certificate-service.description": "Audit des transactions de gestion du cycle de vie des certificats électroniques ..",
+
+  "otpk-service.label": "Audit Signature électronique ",
+  "otpk-service.description": "Audit des transactions par signature électronique à la volée ..",
+
+  "notification-service.label": "Audit global des notifications",
+  "notification-service.description": "Audit global des notifications",
+
+  "notification-service-sendMail.label": "Audit de la notification par mail",
+  "notification-service-sendMail.description": "Audit des notifications par e-mail",
+
+  "notification-service-sendSms.label": "Audit des notifications par SMS",
+  "notification-service-sendSms.description": "Audit des notifications par SMS",
+
+
+  "hsm-connector.label": "Audit des connecteurs HSM",
+  "hsm-connector.description": "Audit des transactions de connexion aux HSM (Création de clé, Signature, ..) ",
+
+  "ts-connector.label": "Audit d'horodatage",
+  "ts-connector.description": "Audit des transactions d'horodatage",
+
+  "cm-connector.label": "Audit du connecteur Nexus PKI",
+  "cm-connector.description": "Audit des transactions de connexion Nexus PKI",
+
+  "default-process-management.label": "Audit de processus par défaut",
+  "default-process-management.description": "Audit des transactions de processus par défaut du système",
+
+  "custom-process-management.label": "Audit de processus spécifiques",
+  "custom-process-management.description": "Audit des transactions de processus système spécifiques",
+
+  "api-connector.label": "Audit API externe",
+  "api-connector.description": "Audit des transactions API externes",
+
+  "administrator.label": "Audit d'Administration GAïA",
+  "administrator.description": "Audit des transactions liées à l'administration",
+
+  "governance.label": "Audit de gouvernance",
+  "governance.description": "Audit des opérations de Gouvernance",
+
+  "auth-service.label": "Audit global d'authentification multifacteur",
+  "auth-service.description": "Audit global des transactions d'authentification multi-facteurs",
+
+  "auth-service-sms.label": "Audit d'authentification multifacteur SMS OTP",
+  "auth-service-sms.description": "Audit des transactions OTP SMS Multi-Factor Authentication",
+
+  "auth-service-push.label": "Audit d'authentification multifacteur Nexus Mobile Push",
+  "auth-service-push.description": "Authentification multi-facteurs Authentification Push Mobile Nexus",
+
+  "auth-service-password.label": "Audit Mot de passe d'authentification",
+  "auth-service-password.description": "Audit des transactions d'authentification par mot de passe",
+
+
+  "auth-service-fido.label": "Audit d'authentification FIDO",
+  "auth-service-fido.description": "Audit des transactions Authentification Fido",
+
+  "auth-service-oath.label": "Audit d'authentification Software OTP multi-facteurs",
+  "auth-service-oath.description": "Audit des transactions Software OTP d'authentification multi-facteurs",
+
+  "auth-service-oathHard.label": "Audit d'authentification multifacteur OTP matériel",
+  "auth-service-oathHard.description": "Audit de transaction OTP (matérielle) d'authentification multifacteur",
+
+  "default-process-management": "Audit de processus par défaut",
+  "default-process-management.desc": "Audit de processus par défaut",
+  "custom-process-management": "Audit de processus personnalisé",
+  "custom-process-management.desc": "Audit de processus personnalisé",
+
+
+  "document-service": "Consumer Identity Service",
+  "document-service.desc": "Consumer Identity Service permettant la gestion des identités, des attributs et des formulaires",
+  "document-service.addIdentity": "Ajouter une identité",
+  "document-service.deleteIdentity": "Supprimer une identité",
+  "document-service.updateIdentity": "Editer une identité",
+  "document-service.affectPush": "Affecter la méthode PUSH",
+  "document-service.desaffectPush": "Désaffecter la méthode PUSH",
+  "document-service.desaffectPassword": "Désaffecter la méthode du mot de passe",
+  "document-service.affectPassword": "Affecter la méthode de mot de passe",
+  "document-service.affectOath": "Affecter la méthode OATH",
+  "document-service.desaffectOath": "Désaffecter la méthode OATH",
+  "document-service.affectSms": "Affecter la méthode SMS",
+  "document-service.desaffectSms": "Désaffecter la méthode SMS",
+  "document-service.addAttributesToIdentity": "Ajouter un attribut à l'identité",
+  "document-service.editStatusIdentity": "Obtenir le statut d'identité",
+  "document-service.addApplicationIdToIdentity": "Ajouter une application à l'identité",
+  "document-service.deleteApplicationIdToIdentity": "Supprimer l'identité de l'application ",
+  "document-service.addRoleToIdentity": "Ajouter un rôle d'identité",
+  "document-service.removeRoleToIdentity": "Supprimer le rôle d'identité",
+  "document-service.deleteGroupFromIdentityByFilterId": "Supprimer l'identité du groupe",
+  "document-service.updateLastLogin": "Mettre à jour la dernière connexion",
+  "document-service.deleteMethodIdentity": "Supprimer la méthode d'authentification d'identité",
+  "document-service.addMethodToIdentity": "Add Identity Authentication Method",
+  "document-service.addIdentityGroups": "Ajouter des groupes d'identité",
+  "document-service.updateIdentityGroups": "Mettre à jour les groupes d'identité",
+  "document-service.deleteIdentityGroups": "Supprimer les groupes d'identité",
+  "document-service.affectAppliationToFilter": "Affecter l'application à la population",
+  "document-service.desaffectAppliationToFilter": "Désaffecter l'application de la population",
+
+  "authentication-service.desc": "Nexus Authentication Service permettant de gérer les méthodes d'authentification neXus",
+  "authentication-service.affectPassword": "Affecter l'authentification par mot de passe",
+  "authentication-service.desaffectPassword": "Désaffecter l'authentification par mot de passe",
+  "authentication-service.passwordAuth": "Authentification par mot de passe",
+  "authentication-service.updatePassword": "Mettre à jour le mot de passe",
+  "authentication-service.challangePwd": "Défier le mot de passe",
+  "authentication-service.affectSMS": "Affecter la méthode d'authentification par SMS",
+  "authentication-service.desaffectSMS": "Désaffecter la méthode d'authentification SMS",
+  "authentication-service.sendOtp": "Envoie d'OTP",
+  "authentication-service.checkOtp": "Vérification d'OTP",
+  "authentication-service.affectOath": "Affecter la méthode OATH",
+  "authentication-service.desaffectOath": "Désaffecter la méthode OATH",
+  "authentication-service.authOath": "Authentification par OATH",
+  "authentication-service.synchronizeOath": "Synchroniser OATH",
+  "authentication-service.oathChallange": "Défi OATH",
+  "authentication-service.affectOathHard": "Affecter la méthode OATH token physique",
+  "authentication-service.desaffectOathHard": "Désaffecter la méthode OATH token physique",
+  "authentication-service.synchronizeOathHard": "Synchroniser OATH token physique",
+  "authentication-service.authOathHard": "Authentification par OATH token physique",
+  "authentication-service.updatePwdOathHard": "Mettre à jour le mot de passe OATH token physique",
+  "authentication-service.affectPersonal": "Affecter l'authentification par PUSH",
+  "authentication-service.desaffectPersonal": "Désaffecter l'authentification par push",
+  "authentication-service.authPersonal": "Méthode d'authentification push",
+  "authentication-service.authPushSign": "Authentification push signée ",
+  "authentication-service.checkPersonalDevice": "Vérifier l'appareil",
+  "authentication-service.deleteUser": "Supprimer l'utilisateur",
+  "authentication-service.updatePhone": "Mettre à jour le téléphone",
+  "authentication-service.checkUserLockStatus": "Vérifier le statut de l'utilisateur",
+  "authentication-service.disableUser": "Désactiver l'utilisateur",
+  "authentication-service.unblockUser": "Débloquer l'utilisateur",
+
+  "auth-service": "Service d'authentification",
+  "auth-service.desc": "Service d'authentification permettant de gérer les méthodes d'authentification GAIA",
+  "auth-service-password": "Service d'authentification par mot de passe",
+  "auth-service-password.desc":"Vous pouvez configurer les options de sécurité pour les mots de passe stockés sur le serveur. Par exemple, le fichier d'identité/admin.",
+  "auth-service-sms": "Service d'authentification OOB",
+  "auth-service-sms.desc": "Un mot de passe à usage unique (OTP) est envoyé avec le SMS ou l'e-mail à l'appareil de l'utilisateur",
+  "auth-service-push": "Service d'authentification PUSH",
+  "auth-service-push.desc": "L'authentification push est une authentification centrée sur le mobile par laquelle le fournisseur de services envoie à l'utilisateur une notification via le canal de communication disponible le plus sécurisé. L'utilisateur répond au défi en effectuant une action pour vérifier son identité et accéder au service.",
+  "auth-service-oath": "Service d'authentification OATH",
+  "auth-service-oath.desc": "Un mot de passe à usage unique (OTP) généré dans l'application mobile GAIA",
+  "auth-service-oathHard": "Service d'authentification token physique OATH",
+  "auth-service-oathHard.desc": "L'une des méthodes les plus simples d'authentification forte et très couramment déployée par les organisations à la recherche d'un moyen rapide et efficace de renforcer leur sécurité de connexion.",
+  "auth-service-fido": "Fido Authentication Service",
+  "auth-service-fido.desc": "Fido Authentication facilitates users to use the devices that comply with FIDO standards for authenticating to any web-based environment.",
+  "auth-service.passwordAuth": "Password Authentication",
+  "auth-service.desaffectPassword": "Desaffect Password Authentication",
+  "auth-service.affectPassword": "Desaffect Password Authentication",
+  "auth-service.disablePassword": "Disabled Password Authentication",
+  "auth-service.unblockPassword": "Unblock Password Authentication",
+  "auth-service.updatePassword": "Update Password",
+  "auth-service.challengePassword": "Challenge Password",
+  "auth-service.sendOob": "Send OOB SMS One Time Password",
+  "auth-service.checkOob": "Check OOB One Time Password",
+  "auth-service.sendOtp": "Send OTP",
+  "auth-service.checkOtp": "Check OTP",
+  "auth-service.desaffectOob": "Desaffect OOB One Time Password",
+  "auth-service.affectOob": "Affect OOB One Time Password",
+  "auth-service.disableOob": "Disabled OOB One Time Password",
+  "auth-service.unblockOob": "Unbloack OOB One Time Password",
+  "auth-service.attestationStart": "",
+  "auth-service.attestationFinish": "",
+  "auth-service.assertionStart": "Retrieving details and challenge",
+  "auth-service.assertionFinish": "Completing the assertion process and sending the challenge result",
+  "auth-service.desaffectFido": "Desaffect FIDO Method",
+  "auth-service.affectPush": "Affect PUSH Method",
+  "auth-service.authPushWithPolling": "PUSH Authentication",
+  "auth-service.desaffectPush": "Desaffect PUSH Method",
+  "auth-service.pushSign": "PUSH Signature",
+  "auth-service.authPushSign": "Authentication PUSH",
+  "auth-service.loginPush":"Request Authentication PUSH",
+  "auth-service.pushResponse":"Enrollement PUSH",
+  "auth-service.deletePush":"Remove PUSH",
+  "auth-service.affectOath": "Affect OATH Method",
+  "auth-service.desaffectOath": "Desaffect OATH Method",
+  "auth-service.unblockOathByType": "Unblock OATH Authentication",
+  "auth-service.disableOathByType": "Disabled OATH Authentication",
+  "auth-service.regenerateOathByType": "Regenerate OATH Authentication method",
+  "auth-service.authOath": "OATH Authentication",
+  "auth-service.synchronizeOath": "OATH Synchronize",
+  "auth-service.oathChallenge": "OATTH Challenge ",
+  "auth-service.affectOathHard": "Affect OATH Hard Method",
+  "auth-service.desaffectOathHard": "Desaffect OATH Hard Method",
+  "auth-service.authOathHard": "OATH Hard Authentication ",
+  "auth-service.resynchToken": "",
+
+
+  "otpk-service":"One Time Certificate Signature Service",
+  "otpk-service.desc":"Service de signature électronique à la volée permettant une signature électronique basée sur des certificats à usage unique.",
+  "otpk-service.resourceSignedByOtpk": "Signature de document",
+  "otpk-service.resourcesSignedByOtpk": "Signature des documents",
+  "otpk-service.getSignedDocByIndex":"Signature de document par OTPK",
+
+  "server-service": "Electronic Seal Signature Service",
+  "server-service.desc": "Service de signature électronique cachet-serveur permettant la signature électronique de cachet qui est associée à une personne morale",
+  "server-service.resourceSignedBySeal": "Signature de document",
+  "server-service.resourcesSignedBySeal": "Signature des documents",
+  "server-service.generateSealCert": "Générer un certificat cachet",
+  "server-service.deleteCert": "Supprimer un certificat cachet",
+  "server-service.signedDocument":"Signature de document par le cachet",
+
+  "archive-service": "Service d'archivage",
+  "archive-service.desc": "Le service d'archivage fournit les fonctionnalités permettant la gestion des documents destinés à être archivés selon une politique d'archivage définie",
+  "archive-service.uploadDocument": "Télécharger un document",
+  "archive-service.addAttProfile": "Ajouter un attribut profil",
+  "archive-service.updateProfile": "Mettre à jour le profil",
+  "archive-service.deleteProfile": "Supprimer le profil",
+
+  "certificate-service": "Service de certificat électronique",
+  "certificate-service.desc": "Certificate Service permettant la gestion du cycle de vie des certificats",
+  "certificate-service.createCertificate": "Générer un nouveau certificat",
+  "certificate-service.createCertificateSoftToken": "Nouveau certificat soft",
+  "certificate-service.createCertificateHardToken": "Nouveau certificat hard",
+  "certificate-service.revokingCertificate": "Révoquer le certificat",
+  "certificate-service.checkCertificate": "Vérifier le certificat",
+
+  "hsm-service": "HSM Service",
+  "hsm-service.desc": "HSM Service desc", 
+  "hsm-service.removeAllKey": "HSM supprimer la clé",
+  "hsm-service.getRandomKey": "HSM clé aléatoire",
+  
+  "hsm-service.storCertificate": "Enregistrer le certificat dans le HSM",
+  "hsm-service.signHash": " Signature de hach HSM",
+  "hsm-service.authHsm":"Authentification HSM",
+  "hsm-service.getCertificate":"Récupérer le certificat du HSM",
+  "hsm-service.generateKeyPair" :"Génération de paires de clés",
+  "hsm-service.deleteKey" :"Supprimer la clé du HSM",
+  "hsm-service.storeCertHsm":"Enregistrer le certificat dans le HSM",
+  
+  "hsm-connector": "HSM Connector Service",
+  "hsm-connector.desc": "HSM Connector Service",
+  "hsm-connector.generateKey": "HSM generate Key",
+  "hsm-connector.storCertificate": "Store certificate to the HSM",
+  "hsm-connector.signHash": "HSM Sign Hash",
+  "hsm-connector.authHsm":"HSM Authentication",
+  "hsm-connector.getCertificateHsm":"Retrive Certificate from HSM",
+  "hsm-connector.generateKeyPair" :"Key pair generation",
+  "hsm-connector.deleteKey" :"Delete key from HSM",
+  "hsm-connector.storeCertHsm":"Store certificate to the HSM",
+
+  "pdf-generator-service": "PDF Generator Service",
+  "pdf-generator-service.desc": "PDF Generator Service offre la possibilité de générer et de gérer un document PDF pour les services de signature",
+  "pdf-generator-service.generatePDFProof": "",
+
+  "asic-service": "Proof File Service",
+  "asic-service.desc": "Proof File Service fournit les fonctionnalités nécessaires pour gérer le dossier de preuve",
+  "asic-service.generateProofFile": "Générer un dossier de preuve",
+  "asic-service.addProofData":"Ajouter les données au dossier de preuve",
+  "ts-connector": "Timestamp Service",
+  "ts-connector.desc": "Timestamp Service desc ..",
+  "ts-connector.stamp": "Stamp Signature",
+
+
+  "notification-service.desc": "Le service de notification offre la possibilité d'envoyer des SMS et des e-mails et de gérer d'autres notifications",
+  "notification-service-sendMail": "Envoyer une notification e-mail",
+  "notification-service.sendMail": "Envoyer une notification e-mail",
+  "notification-service.sendMailWithAttachment": "Envoyer une notification e-mail avec pièces jointe",
+  "notification-service-sendSms": "Envoyer une notification SMS",
+  "notification-service.sendSms": "Envoyer une notification SMS",
+  "notification-service-addTemplate": "Ajouter un modèle",
+  "notification-service-deleteTemplateById": "Supprimer le modèle",
+  "notification-service-updateTemplate": "Modifier le modèle",
+  "notification-service-createSmsConfig": "Créer une configuration SMS",
+  "notification-service-deleteSmsByUsage": "Supprimer la configuration SMS",
+  "notification-service-updateSmsByUsage": "Modifier SMS par utilisation",
+
+
+  "cm-connector": "Nexus PKI Connector Service",
+  "cm-connector.cmConnector": "Connect to CM",
+  "cm-connector.cmConnectorHard":"Connect to CM",
+
+  "notification-service.name": "Global Notification Service",
+  "notification-service-sendMail.name": "Notification Mail Service",
+  "notification-service-sendSms.name": "Notification SMS Service",
+
+  "api-connectors": "Api Connector service",
+  "api-connectors.label": "Api Connector service",
+  "api-connectors.desc": "Api Connector service description",
+  "policy-service":"Policies service",
+  "policy-service.desc":"Le service permettant de définir des politiques différentes",
+
+  "admin-service":"Admin Service",
+  "admin-service.desc":"Le service de gestion des rôles administratifs et des administrateurs",
+
+  "push-service":"Push Service",
+  "push-service.desc":"Le service de gestion des profils Push",
+  
+  "signature-audit-service":"Signature Audit Service",
+  "signature-audit-service.desc":"Audit of Signature Service",
+
+  "risk-service": "Risk service",
+  "risk-service.desc": "risk service description ",
+  "endpoint-service": "Endpoint service",
+  "endpoint-service.desc": "Les points de terminaison sont des périphériques sur lesquels le serveur Advanced Authentication s'authentifie.",
+  "activity-service": "Activity service",
+  "activity-service.desc": "activity service description ",
+  "uaa-service": "Uaa service",
+  "uaa-service.desc": "uaa service description ",
+  "workflow-service": "Workflow service",
+  "workflow-service.desc": "workflow service description ",
+  "discovery-service": "Discovery service",
+  "discovery-service.desc": "La découverte de service est le processus de détection automatique des services sur un réseau.",
+  "audit-service": "Audit service",
+  "audit-service.desc": "Tracer les actions effectuées par les administrateurs et les identités",
+  "gateway-service": "Gateway service",
+  "gateway-service.desc": "gateway service description ",
+  "uaaproxy-service": "Uaaproxy service",
+  "uaaproxy-service.desc": "Permet l'équilibrage de charge et l'accélération des applications",
+  "license-service":"License Service",
+  "license-service.desc":"Analyse la licence et adapte l'interface d'administration aux produits et fonctionnalités inclus",
+  "filter-service":"Filter Service",
+  "filter-service.desc":"Décompose une tâche de traitement plus importante en une séquence d'étapes de traitement indépendantes.",
+  "connector-service":"Connector Service",
+  "connector-service.desc":"Connector Service desc",
+  "list-service":"List Service",
+  "list-service.desc":"List Service description",
+  "token-service":	"Token service",
+  "token-service.desc":	"jeton jwt et service de gestion du cycle de vie des identités d'application",
+  "oauth-service":	"OAUTH SERVICE",
+  "oauth-service.desc":	"Le point d'entrée pour toutes les identités et applications.",
+  "openid-service":"OpenId Service",
+  "openid-service.desc":"Permet aux utilisateurs d'être authentifiés par des sites coopérants (appelés parties de confiance ou RP) à l'aide d'un service de fournisseur d'identité tiers (IDP).",
+  "saml-service":"SAML Service",
+  "saml-service.desc":"Le paramètre avancé vous permet de vous authentifier auprès de SAML 2.0 avec la méthode d'authentification Web.",
+
+  
+  
+  "api-signature-service.name": "Signature Service",
+  "seal-service.name": "Seal Service",
+  "proof-service.name": "Proof Serivice",
+  "hag-authentication-service.name": "Nexus HAG Service",
+  "kyc-service.name": "KYC Service",
+  "notification-service-sendMail.desc": "Notification Mail Service",
+  "notification-service-sendSms.desc": "Notification SMS Service",
+  
+  "cm-connector.desc": "Nexus PKI Connector Service",
+  "identity-service.desc": "Consumer Identity Service",
+  "api-signature-service.desc": "Signature Service",
+  "seal-service.desc": "Seal Service",
+  "proof-service.desc": "Proof Serivice",
+  "hag-authentication-service.desc": "Nexus HAG Service",
+  "kyc-service.desc": "KYC Service",
+
+
+  "report.transactionId": "Transaction",
+  "report.process": "Process",
+  "add": "Ajouter",
+  "user.unlocked": "Activé",
+  "user.locked": "Vérouillé",
+  "user.useDirectoryPwd":"Utiliser le mot de passe Annuaire",
+  "user.link.ad":"Lien AD",
+  "user.pwd.regenerate":"Régénérer mot de passe",
+  "user.log":"Journal utilisateur",
+
+  "dashboard.evolution.nmbr.transactions": "ÉVOLUTION NOMBRE DE TRANSACTIONS",
+  "dashboard.avg.duree.transactions": "DURÉE MOYENNE DES TRANSACTIONS",
+  "dashboard.report.nmbr.transactions": "ÉVOLUTION DU NOMBRE DE TRANSACTIONS",
+  "dashboard.report.avg.duree.transactions": "DURÉE MOYENNE DES TRANSACTIONS",
+
+  "saml.integrate": "Créer une intégration SAML",
+  "saml.title": "Application SAML",
+  "saml.no.data.found": "Aucune application SAML trouvée !",
+
+  "image.select": "Charger une image",
+  "image.select.info": "Chargez votre photo ici. La photo peut être un fichier de type GIF, PNG ou JPG. Nous le redimensionnerons pour vous à une largeur et une hauteur de 200 pixels.",
+
+  "entity.desactivate": "Désactivé",
+  "entity.active": "Activé",
+  "entity.organization": "Organisation",
+  "entity.sub_organization": "Sub_Organisation",
+  "entity.division": "Business Division",
+  "entity.all": "All",
+  "entity.entityCode": "Code entité",
+  "entity.entityLabel": "label entité",
+  "entity.entityType": "Type entité",
+  "entity.createdDate": "date de création",
+  "entity.lastModifiedDate": "Dernière mise à jour",
+  "entity.dependOn": "dependOn",
+  "entity.createdBy": "Créé par",
+  "entity.updatedBy": "Mis à jour par",
+  "apply": "Appliquer",
+  "unapply": "Annuler l'application",
+  "application.createdDate": "Date de creation",
+  "application.createdBy": "Créé par",
+  "application.updatedBy": "Mis à jour par",
+  "application.lastModifiedDate": "Dernière mise à jour",
+  "en": "English",
+  "fr": "Français",
+  "All":"Tout",
+
+  "status.true": "Activé",
+  "status.false": "Désactivé",
+  "process.label": "Workflow",
+  "process.description": "Description",
+  "process.category": "Categorie",
+  "process.active": "Activé",
+
+  "user.id": "Id",
+  "user.firstName": "Prénom",
+  "user.lastName": "Nom",
+  "user.phone": "Téléphone",
+  "user.roles": "Rôles",
+  "user.lastLogin": "Dernière connexion",
+  "user.mail": "Mail",
+  "user.name": "Nom",
+  "user.role": "Rôle",
+  "user.status": "Statut",
+  "user.last.login": "Dernière connexion",
+  "user.groups":"Groupe",
+  "user.add":"Ajouter un utilisateur",
+  "action":"Action",
+
+  "authentication.creationDate":"Date de création",
+
+  "test.send": "ESSAI D'ENVOI",
+
+  "ad": "Active Directory",
+  "openLdap": "OpenLdap",
+  "locale":"fr-FR",
+  "all.rights.reserved":"Tous droits réservés.",
+  "copyright":"Copyright"
+  
+}
